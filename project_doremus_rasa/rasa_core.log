@@ -1,0 +1,143 @@
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'action_joke'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Rasa process starting
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'action_joke'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_joke'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/current/nlu/intent_classifier_tensorflow_embedding.ckpt
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to fill utterance template '{'text': 'Discovering {doremus-artist}...'}'. Tried to replace 'doremus-artist' but could not find a value for it. There is no slot with this name nor did you pass the value explicitly when calling the template. Return template without filling the template. 
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/nlg/template.py", line 79, in _fill_template_text
+    template["text"] = template["text"].format(**template_vars)
+KeyError: 'doremus-artist'
+Failed to fill utterance template '{'text': 'Discovering {doremus-artist}...'}'. Tried to replace 'doremus-artist' but could not find a value for it. There is no slot with this name nor did you pass the value explicitly when calling the template. Return template without filling the template. 
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/nlg/template.py", line 79, in _fill_template_text
+    template["text"] = template["text"].format(**template_vars)
+KeyError: 'doremus-artist'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to fill utterance template '{'text': 'Discovering {doremus-artist}...'}'. Tried to replace 'doremus-artist' but could not find a value for it. There is no slot with this name nor did you pass the value explicitly when calling the template. Return template without filling the template. 
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/nlg/template.py", line 79, in _fill_template_text
+    template["text"] = template["text"].format(**template_vars)
+KeyError: 'doremus-artist'
+Failed to fill utterance template '{'text': 'Discovering {doremus-artist}...'}'. Tried to replace 'doremus-artist' but could not find a value for it. There is no slot with this name nor did you pass the value explicitly when calling the template. Return template without filling the template. 
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/nlg/template.py", line 79, in _fill_template_text
+    template["text"] = template["text"].format(**template_vars)
+KeyError: 'doremus-artist'
+Failed to fill utterance template '{'text': 'Discovering {doremus-artist}...'}'. Tried to replace 'doremus-artist' but could not find a value for it. There is no slot with this name nor did you pass the value explicitly when calling the template. Return template without filling the template. 
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/nlg/template.py", line 79, in _fill_template_text
+    template["text"] = template["text"].format(**template_vars)
+KeyError: 'doremus-artist'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_works_by'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_works_by'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Rasa Core server is up and running on http://localhost:5005

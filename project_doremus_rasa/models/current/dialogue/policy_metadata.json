@@ -1,0 +1,53 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": [
+        "number",
+        "doremus-artist",
+        "name"
+      ]
+    },
+    "utter_goodbye": {
+      "slots": []
+    },
+    "utter_greet": {
+      "slots": []
+    },
+    "utter_thanks": {
+      "slots": []
+    },
+    "utter_laugh": {
+      "slots": []
+    },
+    "action_joke": {
+      "slots": []
+    },
+    "action_works_by": {
+      "slots": []
+    },
+    "utter_name": {
+      "slots": []
+    },
+    "utter_discover_artist": {
+      "slots": []
+    }
+  },
+  "python": "3.6.8",
+  "max_histories": [
+    5,
+    null,
+    5,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20190404-112909",
+  "rasa_core": "0.13.5",
+  "tensorflow": "1.12.0",
+  "sklearn": "0.20.2"
+}
