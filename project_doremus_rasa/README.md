@@ -1,4 +1,8 @@
-﻿# Rasa Stack starter-pack
+﻿# Music chatbot with DOREMUS and RASA
+
+Based on the RASA Stack starter-pack
+
+# Rasa Stack starter-pack
 
 Looked through the [Rasa NLU](http://rasa.com/docs/nlu/) and [Rasa Core](http://rasa.com/docs/core/) documentation and ready to build your first intelligent assistant? We have some resources to help you get started! This repository contains the foundations of your first custom assistant. This starter-pack also comes with a step-by-step video tutorial which you can find [here](https://youtu.be/lQZ_x0LRUbI).  
 
