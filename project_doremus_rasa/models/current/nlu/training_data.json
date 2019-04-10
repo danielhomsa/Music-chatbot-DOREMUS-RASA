@@ -1040,10 +1040,137 @@
           }
         ],
         "text": "Tell me 5 works by Beethoven"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "two",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 36,
+            "value": "Antonio Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me two works by Antonio Vivaldi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "six",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 42,
+            "value": "Johann Sebastian Bach",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me six works by Johann Sebastian Bach"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "three",
+            "entity": "number"
+          },
+          {
+            "start": 23,
+            "end": 44,
+            "value": "Johann Sebastian Bach",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me three works by Johann Sebastian Bach"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "10",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 40,
+            "value": "Ludwig van Beethoven",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me 10 works by Ludwig van Beethoven"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 41,
+            "value": "Ludwig van Beethoven",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me one works by Ludwig van Beethoven"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "4",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 34,
+            "value": "Antonio Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 4 works by Antonio Vivaldi"
       }
     ],
     "regex_features": [],
     "lookup_tables": [],
-    "entity_synonyms": []
+    "entity_synonyms": [
+      {
+        "value": "Antonio Vivaldi",
+        "synonyms": [
+          "Vivaldi",
+          "vivaldi",
+          "antonio",
+          "AV",
+          "A. Vivaldi"
+        ]
+      },
+      {
+        "value": "Johann Sebastian Bach",
+        "synonyms": [
+          "bach",
+          "Bach",
+          "Sebastian Bach"
+        ]
+      }
+    ]
   }
 }

@@ -32,18 +32,12 @@ class ActionWorksBy(Action):
 	def run(self, dispatcher, tracker, domain):
 		number = tracker.get_slot('number')
 		artist = tracker.get_slot('doremus-artist')
-		# sparql = SPARQLWrapper("http://dbpedia.org/sparql")
-		# sparql.setQuery("""PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> SELECT ?label WHERE { <http://dbpedia.org/resource/Asturias> rdfs:label ?label }""")
-		# sparql.setReturnFormat(JSON)
-		# results = sparql.query().convert()
-		# new = results["results"]["bindings"]
-		# res = new[1]['label']['value']
-		# dispatcher.utter_message(res)
-		# dispatcher.utter_message(results["results"]["bindings"])
-		# return []
-		# for result in results["results"]["bindings"]:
-		# 	print('%s: %s' % (result["label"]["xml:lang"], result["label"]["value"]))
-		# return []
+		# # Split artist name to capitalize name
+		# artist_name = artist.split(" ")
+		# for index, name in enumerate(artist_name):
+		# 	artist_name[index] = name.capitalize()
+		# cap_artist = " ".join(artist_name)
+		# Query to get works by artist and limited by number
 		sparql = SPARQLWrapper("http://data.doremus.org/sparql")
 		sparql.setQuery("""PREFIX mus: <http://data.doremus.org/ontology#> 
 							PREFIX ecrm: <http://erlangen-crm.org/current/>
@@ -56,11 +50,16 @@ class ActionWorksBy(Action):
               				rdfs:label ?title .
       						?expCreation efrbroo:R17_created ?expression ;
               				ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer .
-      						?composer foaf:name \"""" +artist.capitalize()+ """\"
+      						?composer foaf:name \"""" + artist + """\"
     						} ORDER BY rand() LIMIT """ + str(number))
+		# Converting the response to json format
 		sparql.setReturnFormat(JSON)
 		results = sparql.query().convert()
-		print(results)
-		print(number)
-		print(artist.capitalize())
+		# Obtaining the works from json
+		works = []
+		for work in results["results"]["bindings"]:
+			works.append(work["title"]["value"])
+		# print(works)
+		# Sending message to user
+		dispatcher.utter_message("\n".join(works))
 		return []

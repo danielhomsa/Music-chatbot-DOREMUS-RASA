@@ -144,3 +144,25 @@
 - Give me [1](number) works by [Mozart](doremus-artist)
 - Tell me [two](number) works by [Vivaldi](doremus-artist)
 - Tell me [5](number) works by [Beethoven](doremus-artist)
+- Tell me [two](number) works by [Antonio Vivaldi](doremus-artist)
+- Tell me [six](number) works by [Johann Sebastian Bach](doremus-artist)
+- Give me [three](number) works by [Johann Sebastian Bach](doremus-artist)
+- Tell me [10](number) works by [Ludwig van Beethoven](doremus-artist)
+- Give me [one](number) works by [Ludwig van Beethoven](doremus-artist)
+- Give me [4](number) works by [Antonio Vivaldi](doremus-artist)
+
+## synonym:Antonio Vivaldi
+- Vivaldi
+- vivaldi
+- antonio
+- AV
+- A. Vivaldi
+
+## synonym:Johann Sebastian Bach
+- bach
+- Bach
+- Sebastian Bach
+
+
+
+
