@@ -39,7 +39,7 @@ class ActionWorksBy(Action):
 		# cap_artist = " ".join(artist_name)
 		# Query to get works by artist and limited by number
 		sparql = SPARQLWrapper("http://data.doremus.org/sparql")
-		sparql.setQuery("""PREFIX mus: <http://data.doremus.org/ontology#> 
+		query = """PREFIX mus: <http://data.doremus.org/ontology#> 
 							PREFIX ecrm: <http://erlangen-crm.org/current/>
     						PREFIX efrbroo: <http://erlangen-crm.org/efrbroo/>
     						PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -51,7 +51,8 @@ class ActionWorksBy(Action):
       						?expCreation efrbroo:R17_created ?expression ;
               				ecrm:P9_consists_of / ecrm:P14_carried_out_by ?composer .
       						?composer foaf:name \"""" + artist + """\"
-    						} ORDER BY rand() LIMIT """ + str(number))
+    						} ORDER BY rand() LIMIT """ + str(number)
+		sparql.setQuery(query)
 		# Converting the response to json format
 		sparql.setReturnFormat(JSON)
 		results = sparql.query().convert()

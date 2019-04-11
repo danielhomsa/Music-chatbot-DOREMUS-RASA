@@ -151,6 +151,42 @@
 - Give me [one](number) works by [Ludwig van Beethoven](doremus-artist)
 - Give me [4](number) works by [Antonio Vivaldi](doremus-artist)
 
+## intent:works-by - yes
+ - Yes thanks!
+ - Yes thanks
+ - yes!
+ - yes
+ - Yes!
+ - Yes
+ - yes sure I'll try
+ - yes why not
+ - ok 
+ - sounds good
+ - ok why not
+ - ok
+ - OK!
+
+## intent:works-by - no
+ - No it's ok
+ - No
+ - no
+ - nope
+ - no thanks
+ - no thakns
+ - no!
+ - No thanks
+ - No
+ - I don't think so
+ - nah
+
+## intent:works_by_instrument
+ - [violin](doremus-instrument)
+ - only works for [clarinet](doremus-instrument)
+ - [clarinet](doremus-instrument)
+ - [piano](doremus-instrument) [and](doremus-strictly) [violin](doremus-instrument)
+ - With instrument [piano](doremus-instrument) [and](doremus-strictly) [violin](doremus-instrument)
+ - [piano](doremus-instrument)
+
 ## synonym:Antonio Vivaldi
 - Vivaldi
 - vivaldi

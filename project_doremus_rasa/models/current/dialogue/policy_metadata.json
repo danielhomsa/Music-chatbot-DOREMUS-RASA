@@ -2,12 +2,24 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "number",
         "doremus-artist",
+        "number",
         "name"
       ]
     },
+    "action_works_by": {
+      "slots": []
+    },
     "utter_goodbye": {
+      "slots": []
+    },
+    "action_joke": {
+      "slots": []
+    },
+    "utter_name": {
+      "slots": []
+    },
+    "utter_works_by_instrument": {
       "slots": []
     },
     "utter_greet": {
@@ -17,15 +29,6 @@
       "slots": []
     },
     "utter_laugh": {
-      "slots": []
-    },
-    "action_joke": {
-      "slots": []
-    },
-    "action_works_by": {
-      "slots": []
-    },
-    "utter_name": {
       "slots": []
     },
     "utter_discover_artist": {
@@ -46,7 +49,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190410-182849",
+  "trained_at": "20190411-121708",
   "rasa_core": "0.13.5",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"

@@ -8,7 +8,9 @@ intents:
 - laugh
 - discover_artist
 - works_by
-
+- works_by - no
+- works_by - yes
+- works_by_instrument
 
 entities:
 - name
@@ -22,6 +24,8 @@ slots:
     type: text
   number:
     type: text
+  doremus-instrument:
+    type: text
 
 
 actions:
@@ -34,6 +38,9 @@ actions:
 - utter_discover_artist
 - utter_works_by
 - action_works_by
+- utter_works_by_yes
+- utter_works_by_no
+- utter_works_by_instrument
 
 
 templates:
@@ -50,5 +57,12 @@ templates:
   utter_discover_artist:
   - text: "Discovering {doremus-artist}..."
   utter_works_by:
-  - text: "Sure! {number} of {doremus-artist}"
-  
+  - text: "Sure! {number} of {doremus-artist}. Do you want to add some filters? Like the artist, instruments, genre or composition period."
+  utter_works_by_yes:
+  - text: "Ok, tell me what"
+  utter_works_by_no:
+  - text: "Ok"
+    utter_works_by_instrument:
+  - text: "Ok, with {doremus-instrument}"
+
+

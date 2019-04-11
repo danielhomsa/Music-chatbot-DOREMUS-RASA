@@ -38,7 +38,17 @@
 ## story_works_by
 * works_by{"number":"1", "doremus-artist":"Vivaldi"}
  - utter_works_by
+* works_by - no
+ - utter_works_by_no
  - action_works_by
+
+## story_works_by_2
+* works_by{"number":"1", "doremus-artist":"Vivaldi"}
+ - utter_works_by
+* works_by - yes
+ - utter_works_by_yes
+* works_by_instrument{"instrument":"violin"}
+ - utter_works_by_instrument
 
 ## story_discover_artist
 * discover_artist{"doremus-artist":"Bach"}

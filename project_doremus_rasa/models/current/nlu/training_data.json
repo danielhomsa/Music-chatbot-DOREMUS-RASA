@@ -1148,6 +1148,198 @@
           }
         ],
         "text": "Give me 4 works by Antonio Vivaldi"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "Yes thanks!"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "Yes thanks"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "yes!"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "yes"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "Yes!"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "Yes"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "yes sure I'll try"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "yes why not"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "ok"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "sounds good"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "ok why not"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "ok"
+      },
+      {
+        "intent": "works-by - yes",
+        "text": "OK!"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "No it's ok"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "No"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "no"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "nope"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "no thanks"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "no thakns"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "no!"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "No thanks"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "No"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "I don't think so"
+      },
+      {
+        "intent": "works-by - no",
+        "text": "nah"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "violin"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "clarinet",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "only works for clarinet"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "clarinet",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "clarinet"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "and",
+            "entity": "doremus-strictly"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "piano and violin"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 16,
+            "end": 21,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "and",
+            "entity": "doremus-strictly"
+          },
+          {
+            "start": 26,
+            "end": 32,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "With instrument piano and violin"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "piano"
       }
     ],
     "regex_features": [],

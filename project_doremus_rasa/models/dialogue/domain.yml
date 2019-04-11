@@ -10,12 +10,16 @@ actions:
 - utter_discover_artist
 - utter_works_by
 - action_works_by
+- utter_works_by_no
+- utter_works_by_yes
+- utter_works_by_instrument
 config:
   store_entities_as_slots: true
 entities:
 - name
 - doremus-artist
 - number
+- doremus-instrument
 forms: []
 intents:
 - greet:
@@ -34,12 +38,18 @@ intents:
     use_entities: true
 - works_by:
     use_entities: true
+- works_by_instrument:
+    use_entities: true
 slots:
   name:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
   doremus-artist:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  doremus-instrument:
     auto_fill: true
     initial_value: null
     type: rasa_core.slots.TextSlot
@@ -60,4 +70,10 @@ templates:
   utter_discover_artist:
   - text: Discovering {doremus-artist}...
   utter_works_by:
-  - text: Sure! {number} of {doremus-artist}
+  - text: Sure! {number} of {doremus-artist}. Do you want to add some filters? Like the artist, instruments, genre or composition period.
+  utter_works_by_yes:
+  - text: Ok, tell me what
+  utter_works_by_no:
+  - text: Ok
+  utter_works_by_instrument:
+  - text: Ok, with {doremus-instrument}
