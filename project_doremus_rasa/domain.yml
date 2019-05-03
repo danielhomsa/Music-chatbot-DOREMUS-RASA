@@ -8,14 +8,19 @@ intents:
 - laugh
 - discover_artist
 - works_by
-- works_by - no
-- works_by - yes
+- works_by_no
+- works_by_yes
 - works_by_instrument
 
 entities:
 - name
 - doremus-artist
 - number
+- geo-city
+- date-period
+- doremus-genre
+- doremus-strictly
+- doremus-instrument
 
 slots:
   name:
@@ -25,6 +30,14 @@ slots:
   number:
     type: text
   doremus-instrument:
+    type: text
+  doremus-strictly:
+    type: text
+  date-period:
+    type: text
+  doremus-genre:
+    type: text
+  geo-city:
     type: text
 
 
@@ -41,6 +54,7 @@ actions:
 - utter_works_by_yes
 - utter_works_by_no
 - utter_works_by_instrument
+- action_reset_slot
 
 
 templates:
@@ -62,7 +76,7 @@ templates:
   - text: "Ok, tell me what"
   utter_works_by_no:
   - text: "Ok"
-    utter_works_by_instrument:
+  utter_works_by_instrument:
   - text: "Ok, with {doremus-instrument}"
 
 

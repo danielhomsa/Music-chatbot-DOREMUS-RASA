@@ -36,19 +36,22 @@
  - utter_goodbye 
 
 ## story_works_by
-* works_by{"number":"1", "doremus-artist":"Vivaldi"}
+* works_by{"number":"1", "doremus-artist":"Vivaldi","date-period":"1000"}
  - utter_works_by
-* works_by - no
+* works_by_no
  - utter_works_by_no
  - action_works_by
+ - action_reset_slot
 
 ## story_works_by_2
-* works_by{"number":"1", "doremus-artist":"Vivaldi"}
+* works_by{"number":"1", "doremus-artist":"Vivaldi", "date-period":"1000"}
  - utter_works_by
-* works_by - yes
+* works_by_yes
  - utter_works_by_yes
-* works_by_instrument{"instrument":"violin"}
+* works_by_instrument{"instrument":"Violin"}
  - utter_works_by_instrument
+ - action_works_by
+ - action_reset_slot
 
 ## story_discover_artist
 * discover_artist{"doremus-artist":"Bach"}

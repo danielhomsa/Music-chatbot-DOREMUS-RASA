@@ -934,6 +934,282 @@
         "text": "Tell me something about Vivaldi"
       },
       {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me something about Vivaldi"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Beethoven",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me something about Beethoven"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me something about Mozart"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "Jonathan Dove",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Talk me about Jonathan Dove"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "Rachmaninov",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Talk me about Rachmaninov"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "Rachmaninof",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Talk me about Rachmaninof"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "Rachmaninoff",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Talk me about Rachmaninoff"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 24,
+            "value": "Racmaninov",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Talk me about Racmaninov"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "Racmaninoff",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Talk me about Racmaninoff"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "tell me something about debussy"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 27,
+            "value": "Jonathan Dove",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Talk me about Jonathan Dove!"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 20,
+            "end": 32,
+            "value": "Rachmaninoff",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Ok so talk me about Rachmaninoff"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Talk me about debussy"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 24,
+            "end": 36,
+            "value": "Rachmaninoff",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "tell me something about Rachmaninoff"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 23,
+            "value": "John Dove",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "talk me about John Dove"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Rachmaninoff",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Okay now talk me about Rachmaninoff"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 26,
+            "value": "Rachmaninoff",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Talk me about Rachmaninoff"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 24,
+            "end": 35,
+            "value": "Rachmaninov",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me something about Rachmaninov"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Talk me about Vivaldi"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Rachmaninoff",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Rachmaninoff"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "who is Mozart"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 21,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me about Vivaldi"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 14,
+            "end": 25,
+            "value": "Rachmaninov",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me about Rachmaninov"
+      },
+      {
         "intent": "works_by",
         "entities": [
           {
@@ -1150,99 +1426,1543 @@
         "text": "Give me 4 works by Antonio Vivaldi"
       },
       {
-        "intent": "works-by - yes",
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 29,
+            "value": "Beethoven",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 59,
+            "end": 64,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          },
+          {
+            "start": 65,
+            "end": 73,
+            "value": "clarinet",
+            "entity": "doremus-instrument"
+          },
+          {
+            "start": 74,
+            "end": 77,
+            "value": "and",
+            "entity": "doremus-strictly"
+          },
+          {
+            "start": 78,
+            "end": 84,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Give me one work by Beethoven but just the one written for piano clarinet and violin"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "six",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Beethoven",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 60,
+            "end": 65,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          },
+          {
+            "start": 66,
+            "end": 74,
+            "value": "clarinet",
+            "entity": "doremus-instrument"
+          },
+          {
+            "start": 75,
+            "end": 78,
+            "value": "and",
+            "entity": "doremus-strictly"
+          },
+          {
+            "start": 79,
+            "end": 85,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Give me six works by Beethoven but just the one written for piano clarinet and violin"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Beethoven",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me 2 works by Beethoven"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "5",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Beethoven",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 5 works about Beethoven"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 13,
+            "value": "2",
+            "entity": "number"
+          }
+        ],
+        "text": "now give me 2 of his works"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Piccinini",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 works by Piccinini"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 36,
+            "value": "Niccolò Piccinini",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 works by Niccolò Piccinini"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 36,
+            "value": "Niccolò Piccinini",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 works by Niccolò Piccinini"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "Latilla",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 works by Latilla"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "Debussi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 works by Debussi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Debusy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 works by Debusy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 works by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 works by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "ten",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me ten works by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me the works by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 38,
+            "end": 59,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          },
+          {
+            "start": 69,
+            "end": 87,
+            "value": "musique de chambre",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "Give me the works by debussy composed between 1890 and 1900 of genre musique de chambre"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 38,
+            "end": 59,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          },
+          {
+            "start": 69,
+            "end": 76,
+            "value": "melodie",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "Give me the works by debussy composed between 1890 and 1900 of genre melodie"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 44,
+            "end": 65,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Give me 2 melodic works by debussy composed between 1890 and 1900"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 39,
+            "end": 60,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Give me 2 melodies by debussy composed between 1890 and 1900"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 10,
+            "end": 19,
+            "value": "concertos",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 40,
+            "end": 61,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Give me 2 concertos by debussy composed between 1890 and 1900"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 melodies by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 10,
+            "end": 19,
+            "value": "concertos",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 concertos by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "concerts",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 39,
+            "end": 60,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Give me 2 concerts by debussy composed between 1890 and 1900"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "concerts",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 22,
+            "end": 29,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 concerts by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 10,
+            "end": 18,
+            "value": "concerts",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "Give me 2 concerts"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "10",
+            "entity": "number"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "concerts",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 10 concerts by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 41,
+            "end": 62,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Give me the melodies by debussy composed between 1890 and 1900"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "Give me the melodies"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me some works by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me 2 works by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me 2 works by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "melody",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me 2 melody by Vivaldi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me 2 works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "tell me 2 works by Vivaldi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "two",
+            "entity": "number"
+          }
+        ],
+        "text": "Now give me two of his works"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 41,
+            "end": 52,
+            "value": "during 1890",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Tell me the melodies by debussy composed during 1890"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 41,
+            "end": 62,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Tell me the melodies by debussy composed between 1860 and 1870"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 41,
+            "end": 62,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Tell me the melodies by debussy composed between 1890 and 1900"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me one work by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me one works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "3",
+            "entity": "number"
+          }
+        ],
+        "text": "Give me 3 works composed by Bach"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          }
+        ],
+        "text": "Give me 2 of his works"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 13,
+            "value": "2",
+            "entity": "number"
+          }
+        ],
+        "text": "Now give me 2 of his works"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "four",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me four works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "four",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 28,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me four works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "four",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 31,
+            "value": "Beethoven",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me four works by Beethoven"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me one work by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 14,
+            "end": 18,
+            "value": "four",
+            "entity": "number"
+          },
+          {
+            "start": 28,
+            "end": 34,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "hello give me four works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "three",
+            "entity": "number"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me three works by Vivaldi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "six",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me six works by Vivaldi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "two",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 27,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "tell me two works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "two",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me two words by Vivaldi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "two",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me two works by Vivaldi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me 2 works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 10,
+            "end": 20,
+            "value": "symphonies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "Beethoven",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me 2 symphonies by Beethoven"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 10,
+            "end": 20,
+            "value": "symphonies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 24,
+            "end": 30,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me 2 symphonies by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me 2 operas by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 15,
+            "value": "two",
+            "entity": "number"
+          }
+        ],
+        "text": "now give me two of his works"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 13,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 29,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 39,
+            "end": 60,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          }
+        ],
+        "text": "now give me 2 of his melodies composed between 1890 and 1900"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 16,
+            "end": 24,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 34,
+            "end": 55,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          }
+        ],
+        "text": "now give me his melodies composed between 1890 and 1900"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 27,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me one work by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 12,
+            "end": 20,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "debussy",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Tell me the melodies by debussy"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "5",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me 5 works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "3",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 31,
+            "end": 37,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Give me 3 works by Mozart with violin"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "show me works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          }
+        ],
+        "text": "Tell me 2 works"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "two",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me two works by Vivaldi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me 2 works by Vivaldi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "3",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me 3 works by Mozart"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "two",
+            "entity": "number"
+          },
+          {
+            "start": 23,
+            "end": 29,
+            "value": "mother",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "give me two works from mother"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "two",
+            "entity": "number"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Give me two works from Vivaldi"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "two",
+            "entity": "number"
+          },
+          {
+            "start": 23,
+            "end": 30,
+            "value": "Vivaldi",
+            "entity": "doremus-artist"
+          },
+          {
+            "start": 35,
+            "end": 41,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Give me two works from Vivaldi for violin"
+      },
+      {
+        "intent": "works_by",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "3",
+            "entity": "number"
+          },
+          {
+            "start": 19,
+            "end": 25,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "show me 3 works by Mozart"
+      },
+      {
+        "intent": "works-by_yes",
         "text": "Yes thanks!"
       },
       {
-        "intent": "works-by - yes",
+        "intent": "works-by_yes",
         "text": "Yes thanks"
       },
       {
-        "intent": "works-by - yes",
+        "intent": "works-by_yes",
         "text": "yes!"
       },
       {
-        "intent": "works-by - yes",
+        "intent": "works-by_yes",
         "text": "yes"
       },
       {
-        "intent": "works-by - yes",
+        "intent": "works-by_yes",
         "text": "Yes!"
       },
       {
-        "intent": "works-by - yes",
+        "intent": "works-by_yes",
         "text": "Yes"
       },
       {
-        "intent": "works-by - yes",
+        "intent": "works-by_yes",
         "text": "yes sure I'll try"
       },
       {
-        "intent": "works-by - yes",
-        "text": "yes why not"
-      },
-      {
-        "intent": "works-by - yes",
+        "intent": "works-by_yes",
         "text": "ok"
       },
       {
-        "intent": "works-by - yes",
+        "intent": "works-by_yes",
         "text": "sounds good"
       },
       {
-        "intent": "works-by - yes",
-        "text": "ok why not"
-      },
-      {
-        "intent": "works-by - yes",
+        "intent": "works-by_yes",
         "text": "ok"
       },
       {
-        "intent": "works-by - yes",
+        "intent": "works-by_yes",
         "text": "OK!"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "No it's ok"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "No"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "no"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "nope"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "no thanks"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "no thakns"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "no!"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "No thanks"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "No"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "I don't think so"
       },
       {
-        "intent": "works-by - no",
+        "intent": "works-by_no",
         "text": "nah"
       },
       {
@@ -1340,29 +3060,46 @@
           }
         ],
         "text": "piano"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 9,
+            "end": 18,
+            "value": "saxophone",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Ok, with saxophone"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "saxophone",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "With saxophone"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "With violin"
       }
     ],
     "regex_features": [],
     "lookup_tables": [],
-    "entity_synonyms": [
-      {
-        "value": "Antonio Vivaldi",
-        "synonyms": [
-          "Vivaldi",
-          "vivaldi",
-          "antonio",
-          "AV",
-          "A. Vivaldi"
-        ]
-      },
-      {
-        "value": "Johann Sebastian Bach",
-        "synonyms": [
-          "bach",
-          "Bach",
-          "Sebastian Bach"
-        ]
-      }
-    ]
+    "entity_synonyms": []
   }
 }
