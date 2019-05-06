@@ -13,6 +13,7 @@ actions:
 - utter_works_by_yes
 - utter_works_by_no
 - utter_works_by_instrument
+- utter_works_by_genre
 - action_reset_slot
 config:
   store_entities_as_slots: true
@@ -50,6 +51,8 @@ intents:
 - works_by_yes:
     use_entities: true
 - works_by_instrument:
+    use_entities: true
+- works_by_genre:
     use_entities: true
 slots:
   date-period:
@@ -100,6 +103,8 @@ templates:
   utter_works_by:
   - text: Sure! {number} of {doremus-artist}. Do you want to add some filters? Like
       the artist, instruments, genre or composition period.
+  utter_works_by_genre:
+  - text: Ok, with {doremus-genre}
   utter_works_by_instrument:
   - text: Ok, with {doremus-instrument}
   utter_works_by_no:

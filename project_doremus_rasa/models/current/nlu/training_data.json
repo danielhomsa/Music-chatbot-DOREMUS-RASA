@@ -3096,6 +3096,274 @@
           }
         ],
         "text": "With violin"
+      },
+      {
+        "intent": "works_by_instrument",
+        "text": "yes by instrument"
+      },
+      {
+        "intent": "works_by_instrument",
+        "text": "works by only instrument"
+      },
+      {
+        "intent": "works_by_instrument",
+        "text": "An instrument"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "violin"
+      },
+      {
+        "intent": "works_by_instrument",
+        "text": "by instrument"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "clarinet",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "only works for clarinet"
+      },
+      {
+        "intent": "works_by_instrument",
+        "text": "yes the instrument"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "clarinet",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "clarinet"
+      },
+      {
+        "intent": "works_by_instrument",
+        "text": "Yes the instrument"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "and",
+            "entity": "doremus-strictly"
+          },
+          {
+            "start": 10,
+            "end": 16,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "piano and violin"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 19,
+            "end": 24,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          },
+          {
+            "start": 25,
+            "end": 28,
+            "value": "and",
+            "entity": "doremus-strictly"
+          },
+          {
+            "start": 29,
+            "end": 35,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Yes the instrument piano and violin"
+      },
+      {
+        "intent": "works_by_instrument",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "piano"
+      },
+      {
+        "intent": "works_by_genre",
+        "text": "yes by the genre"
+      },
+      {
+        "intent": "works_by_genre",
+        "text": "ok by the genre"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 9,
+            "end": 27,
+            "value": "musique de chambre",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "of genre musique de chambre"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "melody",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "I want only melody"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "melody",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "of melody genre"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "melody",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "please show only genre melody"
+      },
+      {
+        "intent": "works_by_genre",
+        "text": "the genre"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "musique de chambre",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "musique de chambre"
+      },
+      {
+        "intent": "works_by_genre",
+        "text": "Yes the genre"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "melodie",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "melodie"
+      },
+      {
+        "intent": "works_by_genre",
+        "text": "yes the genre please"
+      },
+      {
+        "intent": "works_by_genre",
+        "text": "yes the genre"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "melody",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "melody"
+      },
+      {
+        "intent": "works_by_genre",
+        "text": "The genre"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "Symphony",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "of genre Symphony"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "Symphonie",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "Symphonie genre"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "Opera",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "Opera genre"
       }
     ],
     "regex_features": [],

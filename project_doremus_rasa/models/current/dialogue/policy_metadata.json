@@ -3,18 +3,23 @@
     "action_listen": {
       "slots": [
         "date-period",
-        "number",
+        "doremus-genre",
+        "doremus-instrument",
         "doremus-artist",
+        "number",
         "name"
       ]
     },
     "action_reset_slot": {
+      "slots": [
+        "doremus-genre",
+        "doremus-instrument"
+      ]
+    },
+    "utter_laugh": {
       "slots": []
     },
     "utter_goodbye": {
-      "slots": []
-    },
-    "action_joke": {
       "slots": []
     },
     "utter_name": {
@@ -23,13 +28,13 @@
     "utter_greet": {
       "slots": []
     },
-    "utter_thanks": {
-      "slots": []
-    },
-    "utter_laugh": {
-      "slots": []
-    },
     "utter_discover_artist": {
+      "slots": []
+    },
+    "action_joke": {
+      "slots": []
+    },
+    "utter_thanks": {
       "slots": []
     }
   },
@@ -47,7 +52,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190503-131047",
+  "trained_at": "20190506-231514",
   "rasa_core": "0.13.5",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"

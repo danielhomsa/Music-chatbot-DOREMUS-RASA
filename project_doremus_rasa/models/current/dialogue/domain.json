@@ -9,6 +9,7 @@
     "intent_name",
     "intent_thanks",
     "intent_works_by",
+    "intent_works_by_genre",
     "intent_works_by_instrument",
     "intent_works_by_no",
     "intent_works_by_yes",
@@ -47,6 +48,7 @@
     "prev_utter_works_by_yes",
     "prev_utter_works_by_no",
     "prev_utter_works_by_instrument",
+    "prev_utter_works_by_genre",
     "prev_action_reset_slot"
   ]
 }

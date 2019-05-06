@@ -284,6 +284,37 @@
  - Ok, with [saxophone](doremus-instrument)
  - With [saxophone](doremus-instrument)
  - With [violin](doremus-instrument)
+ - yes by instrument
+ - works by only instrument
+ - An instrument
+ - [violin](doremus-instrument)
+ - by instrument
+ - only works for [clarinet](doremus-instrument)
+ - yes the instrument
+ - [clarinet](doremus-instrument)
+ - Yes the instrument
+ - [piano](doremus-instrument) [and](doremus-strictly) [violin](doremus-instrument)
+ - Yes the instrument [piano](doremus-instrument) [and](doremus-strictly) [violin](doremus-instrument)
+ - [piano](doremus-instrument)
+
+## intent: works_by_genre
+ - yes by the genre
+ - ok by the genre
+ - of genre [musique de chambre](doremus-genre)
+ - I want only [melody](doremus-genre)
+ - of [melody](doremus-genre) genre
+ - please show only genre [melody](doremus-genre)
+ - the genre
+ - [musique de chambre](doremus-genre)
+ - Yes the genre
+ - [melodie](doremus-genre)
+ - yes the genre please
+ - yes the genre
+ - [melody](doremus-genre)
+ - The genre
+ - of genre [Symphony](doremus-genre)
+ - [Symphonie](doremus-genre) genre
+ - [Opera](doremus-genre) genre
 
 <!-- ## synonym:Antonio Vivaldi
 - Vivaldi

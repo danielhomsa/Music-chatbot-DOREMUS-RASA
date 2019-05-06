@@ -11,6 +11,7 @@ intents:
 - works_by_no
 - works_by_yes
 - works_by_instrument
+- works_by_genre
 
 entities:
 - name
@@ -54,6 +55,7 @@ actions:
 - utter_works_by_yes
 - utter_works_by_no
 - utter_works_by_instrument
+- utter_works_by_genre
 - action_reset_slot
 
 
@@ -78,5 +80,7 @@ templates:
   - text: "Ok"
   utter_works_by_instrument:
   - text: "Ok, with {doremus-instrument}"
+  utter_works_by_genre:
+  - text: "Ok, with {doremus-genre}"
 
 
