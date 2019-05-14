@@ -12,6 +12,8 @@ intents:
 - works_by_yes
 - works_by_instrument
 - works_by_genre
+- find_performance
+- time_test
 
 entities:
 - name
@@ -57,7 +59,10 @@ actions:
 - utter_works_by_instrument
 - utter_works_by_genre
 - action_reset_slot
-
+- action_discover_artist
+- action_find_performance
+- utter_find_performance
+- action_time_test
 
 templates:
   utter_name:
@@ -73,7 +78,7 @@ templates:
   utter_discover_artist:
   - text: "Discovering {doremus-artist}..."
   utter_works_by:
-  - text: "Sure! {number} of {doremus-artist}. Do you want to add some filters? Like the artist, instruments, genre or composition period."
+  - text: "Sure! {number} of {doremus-artist}. Do you want to add some filters? Like the instruments, genre or composition period."
   utter_works_by_yes:
   - text: "Ok, tell me what"
   utter_works_by_no:
@@ -82,5 +87,7 @@ templates:
   - text: "Ok, with {doremus-instrument}"
   utter_works_by_genre:
   - text: "Ok, with {doremus-genre}"
+  utter_find_performance:
+  - text: "Searching perfomances"
 
 

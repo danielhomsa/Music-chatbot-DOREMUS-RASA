@@ -182,30 +182,6 @@
         "text": "cool thank you"
       },
       {
-        "intent": "affirm",
-        "text": "yes"
-      },
-      {
-        "intent": "affirm",
-        "text": "yes sure"
-      },
-      {
-        "intent": "affirm",
-        "text": "absolutely"
-      },
-      {
-        "intent": "affirm",
-        "text": "for sure"
-      },
-      {
-        "intent": "affirm",
-        "text": "yes yes yes"
-      },
-      {
-        "intent": "affirm",
-        "text": "definitely"
-      },
-      {
         "intent": "name",
         "entities": [
           {
@@ -2878,91 +2854,91 @@
         "text": "show me 3 works by Mozart"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "Yes thanks!"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "Yes thanks"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "yes!"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "yes"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "Yes!"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "Yes"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "yes sure I'll try"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "ok"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "sounds good"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "ok"
       },
       {
-        "intent": "works-by_yes",
+        "intent": "works_by_yes",
         "text": "OK!"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "No it's ok"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "No"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "no"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "nope"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "no thanks"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "no thakns"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "no!"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "No thanks"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "No"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "I don't think so"
       },
       {
-        "intent": "works-by_no",
+        "intent": "works_by_no",
         "text": "nah"
       },
       {
@@ -3364,6 +3340,562 @@
           }
         ],
         "text": "Opera genre"
+      },
+      {
+        "intent": "works_by_genre",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "Sonata",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "Sonata genre"
+      },
+      {
+        "intent": "find_performance",
+        "text": "What are the upcoming performances?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 21,
+            "end": 34,
+            "value": "in these days",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Are there any events in these days?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 21,
+            "end": 38,
+            "value": "in the next month",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Are there any events in the next month?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 28,
+            "end": 40,
+            "value": "26th of June",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Are there any events in the 26th of June?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 24,
+            "end": 31,
+            "value": "June 26",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Are there any events on June 26?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 35,
+            "value": "tomorrow",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me 2 performances for tomorrow"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 24,
+            "end": 28,
+            "value": "Lyon",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "are there any events in Lyon?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 24,
+            "end": 30,
+            "value": "London",
+            "entity": "geo-city"
+          },
+          {
+            "start": 31,
+            "end": 40,
+            "value": "next week",
+            "entity": "date-period"
+          }
+        ],
+        "text": "are there any events in London next week?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Are there any events in Paris?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me 2 events in Paris?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "Paris",
+            "entity": "geo-city"
+          },
+          {
+            "start": 26,
+            "end": 35,
+            "value": "this week",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me 2 events in Paris this week?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 23,
+            "end": 56,
+            "value": "between 25/06/2018 and 28/06/2018",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me 2 performances between 25/06/2018 and 28/06/2018"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 23,
+            "end": 50,
+            "value": "between july 25 and july 28",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me 2 performances between july 25 and july 28"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "find me some performances in Paris!"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 29,
+            "end": 34,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me some performances in Paris"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Paris",
+            "entity": "geo-city"
+          },
+          {
+            "start": 27,
+            "end": 44,
+            "value": "in the next month",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Tell me one event in Paris in the next month"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 26,
+            "value": "Paris",
+            "entity": "geo-city"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "tonight",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Tell me one event in Paris tonight"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 24,
+            "end": 32,
+            "value": "tomorrow",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Propose me an event for tomorrow"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "are there any events in Paris"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 26,
+            "end": 38,
+            "value": "in two weeks",
+            "entity": "date-period"
+          }
+        ],
+        "text": "find me some performances in two weeks"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 26,
+            "end": 47,
+            "value": "in the next two weeks",
+            "entity": "date-period"
+          }
+        ],
+        "text": "find me some performances in the next two weeks"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Are there any events in Paris"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Are there any event in Paris"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "this week",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Are there any events this week ?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Paris",
+            "entity": "geo-city"
+          },
+          {
+            "start": 32,
+            "end": 41,
+            "value": "September",
+            "entity": "date-period"
+          }
+        ],
+        "text": "what are the events in Paris in September"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "3",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "Paris",
+            "entity": "geo-city"
+          },
+          {
+            "start": 26,
+            "end": 49,
+            "value": "first week of september",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Give me 3 events in Paris first week of september"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "3",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 25,
+            "value": "Paris",
+            "entity": "geo-city"
+          },
+          {
+            "start": 29,
+            "end": 38,
+            "value": "September",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Give me 3 events in Paris in September"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 26,
+            "end": 31,
+            "value": "Paris",
+            "entity": "geo-city"
+          },
+          {
+            "start": 32,
+            "end": 41,
+            "value": "this week",
+            "entity": "date-period"
+          }
+        ],
+        "text": "what is the next event in Paris this week"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "Paris",
+            "entity": "geo-city"
+          },
+          {
+            "start": 30,
+            "end": 39,
+            "value": "this week",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Are there any events in Paris this week?"
+      },
+      {
+        "intent": "find_performance",
+        "entities": [
+          {
+            "start": 24,
+            "end": 29,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Are there any events in Paris"
+      },
+      {
+        "intent": "time_test",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "today",
+            "entity": "date-period"
+          }
+        ],
+        "text": "today"
+      },
+      {
+        "intent": "time_test",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "this week",
+            "entity": "date-period"
+          }
+        ],
+        "text": "this week"
+      },
+      {
+        "intent": "time_test",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "tomorrow",
+            "entity": "date-period"
+          }
+        ],
+        "text": "tomorrow"
+      },
+      {
+        "intent": "time_test",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "next month",
+            "entity": "date-period"
+          }
+        ],
+        "text": "next month"
+      },
+      {
+        "intent": "time_test",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "in 1890",
+            "entity": "date-period"
+          }
+        ],
+        "text": "in 1890"
+      },
+      {
+        "intent": "time_test",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "before 2010",
+            "entity": "date-period"
+          }
+        ],
+        "text": "before 2010"
+      },
+      {
+        "intent": "time_test",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "this year",
+            "entity": "date-period"
+          }
+        ],
+        "text": "this year"
       }
     ],
     "regex_features": [],

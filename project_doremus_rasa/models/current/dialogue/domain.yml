@@ -15,6 +15,10 @@ actions:
 - utter_works_by_instrument
 - utter_works_by_genre
 - action_reset_slot
+- action_discover_artist
+- action_find_performance
+- utter_find_performance
+- action_time_test
 config:
   store_entities_as_slots: true
 entities:
@@ -54,6 +58,10 @@ intents:
     use_entities: true
 - works_by_genre:
     use_entities: true
+- find_performance:
+    use_entities: true
+- time_test:
+    use_entities: true
 slots:
   date-period:
     auto_fill: true
@@ -90,6 +98,8 @@ slots:
 templates:
   utter_discover_artist:
   - text: Discovering {doremus-artist}...
+  utter_find_performance:
+  - text: Searching perfomances
   utter_goodbye:
   - text: Talk to you later!
   utter_greet:
@@ -102,7 +112,7 @@ templates:
   - text: My pleasure.
   utter_works_by:
   - text: Sure! {number} of {doremus-artist}. Do you want to add some filters? Like
-      the artist, instruments, genre or composition period.
+      the instruments, genre or composition period.
   utter_works_by_genre:
   - text: Ok, with {doremus-genre}
   utter_works_by_instrument:

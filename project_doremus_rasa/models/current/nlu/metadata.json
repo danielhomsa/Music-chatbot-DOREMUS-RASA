@@ -21,6 +21,17 @@
             "class": "rasa_nlu.featurizers.spacy_featurizer.SpacyFeaturizer"
         },
         {
+            "dimensions": [
+                "time",
+                "number"
+            ],
+            "url": "http://localhost:8000",
+            "locale": null,
+            "timezone": "Europe/Paris",
+            "name": "ner_duckling_http",
+            "class": "rasa_nlu.extractors.duckling_http_extractor.DucklingHTTPExtractor"
+        },
+        {
             "BILOU_flag": true,
             "features": [
                 [
@@ -86,6 +97,6 @@
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20190506-231425",
+    "trained_at": "20190514-160758",
     "rasa_nlu_version": "0.14.6"
 }

@@ -35,9 +35,20 @@
 * goodbye
  - utter_goodbye 
 
+## story_discover_artist
+* discover_artist{"doremus-artist":"Bach"}
+ - utter_discover_artist
+ - action_discover_artist
+
+## story_find_performance
+* find_performance{"date-period":null, "geo-city": null, "number":"1"}
+ - utter_find_performance
+ - action_find_performance
+
 ## story_works_by
-* works_by{"number":"1", "doremus-artist":"Vivaldi"}
+* works_by{"number":"1", "doremus-artist":"Vivaldi", "date-period":"1000"}
  - utter_works_by
+ - action_time_test
 * works_by_no
  - utter_works_by_no
  - action_works_by
@@ -46,17 +57,19 @@
 ## story_works_by_2
 * works_by{"number":"1", "doremus-artist":"Vivaldi", "date-period":"1000"}
  - utter_works_by
+ - action_time_test
 * works_by_yes
  - utter_works_by_yes
 * works_by_instrument{"doremus-instrument":"Violin"}
  - utter_works_by_instrument
  - action_works_by
  - action_reset_slot
- - slot{"doremus-instrument":null}
+ - slot{"doremus-instrument":null, "date-period":null}
 
 ## story_works_by_3
 * works_by{"number":"1", "doremus-artist":"Vivaldi", "date-period":"1000"}
  - utter_works_by
+ - action_time_test
 * works_by_yes
  - utter_works_by_yes
 * works_by_instrument{"doremus-instrument":"Violin"}
@@ -65,19 +78,22 @@
  - utter_works_by_genre
  - action_works_by
  - action_reset_slot
- - slot{"doremus-instrument":null, "doremus-genre":null}
+ - slot{"doremus-instrument":null, "doremus-genre":null, "date-period":null}
 
 ## story_works_by_4
 * works_by{"number":"1", "doremus-artist":"Vivaldi", "date-period":"1000"}
  - utter_works_by
+ - action_time_test
 * works_by_yes
  - utter_works_by_yes
 * works_by_genre{"doremus-genre":"symphony"}
  - utter_works_by_genre
  - action_works_by
  - action_reset_slot
- - slot{"doremus-genre":null}
+ - slot{"doremus-genre":null, "date-period":null}
 
-## story_discover_artist
-* discover_artist{"doremus-artist":"Bach"}
- - utter_discover_artist
+## story_time_test
+* time_test
+- action_time_test
+
+

@@ -51,13 +51,13 @@
 - cool, thanks
 - cool thank you
 
-## intent:affirm
+<!-- ## intent:affirm
 - yes
 - yes sure
 - absolutely
 - for sure
 - yes yes yes
-- definitely
+- definitely -->
 
 
 ## intent:name
@@ -248,7 +248,7 @@
  - Give me [two](number) works from [Vivaldi](doremus-artist) for [violin](doremus-instrument)
  - show me [3](number) works by [Mozart](doremus-artist)
 
-## intent:works-by_yes
+## intent:works_by_yes
  - Yes thanks!
  - Yes thanks
  - yes!
@@ -261,7 +261,7 @@
  - ok
  - OK!
 
-## intent:works-by_no
+## intent:works_by_no
  - No it's ok
  - No
  - no
@@ -315,7 +315,48 @@
  - of genre [Symphony](doremus-genre)
  - [Symphonie](doremus-genre) genre
  - [Opera](doremus-genre) genre
+ - [Sonata](doremus-genre) genre
 
+## intent: find_performance
+ - What are the upcoming performances?
+ - Are there any events [in these days](date-period)?
+ - Are there any events [in the next month](date-period)?
+ - Are there any events in the [26th of June](date-period)?
+ - Are there any events on [June 26](date-period)?
+ - Find me [2](number) performances for [tomorrow](date-period)
+ - are there any events in [Lyon](geo-city)?
+ - are there any events in [London](geo-city) [next week](date-period)?
+ - Are there any events in [Paris](geo-city)?
+ - Find me [2](number) events in [Paris](geo-city)?
+ - Find me [2](number) events in [Paris](geo-city) [this week](date-period)?
+ - Find me [2](number) performances [between 25/06/2018 and 28/06/2018](date-period)
+ - Find me [2](number) performances [between july 25 and july 28](date-period)
+ - find me some performances in [Paris](geo-city)!
+ - Find me some performances in [Paris](geo-city)
+ - Tell me [one](number) event in [Paris](geo-city) [in the next month](date-period)
+ - Tell me [one](number) event in [Paris](geo-city) [tonight](date-period)
+ - Propose me an event for [tomorrow](date-period)
+ - are there any events in [Paris](geo-city)
+ - find me some performances [in two weeks](date-period)
+ - find me some performances [in the next two weeks](date-period)
+ - Are there any events in [Paris](geo-city)
+ - Are there any event in [Paris](geo-city)
+ - Are there any events [this week](date-period) ?
+ - what are the events in [Paris](geo-city) in [September](date-period)
+ - Give me [3](number) events in [Paris](geo-city) [first week of september](date-period)
+ - Give me [3](number) events in [Paris](geo-city) in [September](date-period)
+ - what is the next event in [Paris](geo-city) [this week](date-period)
+ - Are there any events in [Paris](geo-city) [this week](date-period)?
+ - Are there any events in [Paris](geo-city)
+
+## intent: time_test
+- [today](date-period)
+- [this week](date-period)
+- [tomorrow](date-period)
+- [next month](date-period)
+- [in 1890](date-period)
+- [before 2010](date-period)
+- [this year](date-period)
 <!-- ## synonym:Antonio Vivaldi
 - Vivaldi
 - vivaldi
