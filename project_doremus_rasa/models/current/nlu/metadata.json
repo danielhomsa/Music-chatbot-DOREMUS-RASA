@@ -26,7 +26,7 @@
                 "number"
             ],
             "url": "http://localhost:8000",
-            "locale": null,
+            "locale": "en_US",
             "timezone": "Europe/Paris",
             "name": "ner_duckling_http",
             "class": "rasa_nlu.extractors.duckling_http_extractor.DucklingHTTPExtractor"
@@ -97,6 +97,6 @@
         }
     ],
     "training_data": "training_data.json",
-    "trained_at": "20190514-160758",
+    "trained_at": "20190521-170010",
     "rasa_nlu_version": "0.14.6"
 }

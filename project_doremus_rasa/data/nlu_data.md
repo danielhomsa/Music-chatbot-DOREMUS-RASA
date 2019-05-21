@@ -274,7 +274,7 @@
  - I don't think so
  - nah
 
-## intent:works_by_instrument
+## intent: works_by_filter
  - [violin](doremus-instrument)
  - only works for [clarinet](doremus-instrument)
  - [clarinet](doremus-instrument)
@@ -296,9 +296,7 @@
  - [piano](doremus-instrument) [and](doremus-strictly) [violin](doremus-instrument)
  - Yes the instrument [piano](doremus-instrument) [and](doremus-strictly) [violin](doremus-instrument)
  - [piano](doremus-instrument)
-
-## intent: works_by_genre
- - yes by the genre
+  - yes by the genre
  - ok by the genre
  - of genre [musique de chambre](doremus-genre)
  - I want only [melody](doremus-genre)
@@ -316,6 +314,17 @@
  - [Symphonie](doremus-genre) genre
  - [Opera](doremus-genre) genre
  - [Sonata](doremus-genre) genre
+ - [after 1770](date-period)
+ - [before 1890](date-period)
+ - [between 1890 and 1900](date-period)
+ - [after 1770 and before 1800](date-period)
+ - [until 1770](date-period)
+ - [after 1670](date-period)
+ - [before 1790](date-period)
+ - [between 1590 and 1600](date-period)
+ - [after 1700 and before 1760](date-period)
+ - [until 1800](date-period)
+
 
 ## intent: find_performance
  - What are the upcoming performances?
@@ -332,15 +341,15 @@
  - Find me [2](number) performances [between 25/06/2018 and 28/06/2018](date-period)
  - Find me [2](number) performances [between july 25 and july 28](date-period)
  - find me some performances in [Paris](geo-city)!
- - Find me some performances in [Paris](geo-city)
+ - Find me some performances in [Berlin](geo-city)
  - Tell me [one](number) event in [Paris](geo-city) [in the next month](date-period)
- - Tell me [one](number) event in [Paris](geo-city) [tonight](date-period)
+ - Tell me [one](number) event in [Madrid](geo-city) [tonight](date-period)
  - Propose me an event for [tomorrow](date-period)
  - are there any events in [Paris](geo-city)
  - find me some performances [in two weeks](date-period)
  - find me some performances [in the next two weeks](date-period)
  - Are there any events in [Paris](geo-city)
- - Are there any event in [Paris](geo-city)
+ - Are there any event in [Metz](geo-city)
  - Are there any events [this week](date-period) ?
  - what are the events in [Paris](geo-city) in [September](date-period)
  - Give me [3](number) events in [Paris](geo-city) [first week of september](date-period)
@@ -357,6 +366,34 @@
 - [in 1890](date-period)
 - [before 2010](date-period)
 - [this year](date-period)
+
+## intent: find_artist
+ - Find me [one](number) artist born in [Paris](geo-city)
+ - Find me [one](number) artist born in [Palermo](geo-city)
+ - Find me [one](number) artist born in [Caltanissetta](geo-city)
+ - Find me [one](number) artist born in [Enna](geo-city)
+ - Find me [one](number) artist born in [Catania](geo-city)
+ - find me an artist born in [Nice](geo-city)
+ - Find me an artist born in [Venice](geo-city)
+ - find me [one](number) artist born in [Paris](geo-city)
+ - find me an artist born in [Saint-Germain-en-Laye](geo-city)
+ - Find an artist born [between 1860 and 1870](date-period) who wrote more works for [piano](doremus-instrument)
+ - Find an artist born [between 1862 and 1873](date-period) who wrote more works for [piano](doremus-instrument)
+ - Find an artist born [in 1862](date-period)
+ - Find [one](number) artist born [in 1862](date-period)
+ - Find [one](number) artist born [in 1862](date-period) who wrote more [melody](doremus-genre)
+ - Find [one](number) artist born [in 1862](date-period) who wrote more works for [piano](doremus-instrument)
+ - Find [one](number) artist born [between 1860 and 1870](date-period) who wrote more [melodies](doremus-genre)
+ - Find [one](number) artist born [between 1860 and 1870](date-period) who wrote more works for [piano](doremus-instrument)
+ - Find an artist born [between 1861 and 1870](date-period) who wrote more works for [piano](doremus-instrument)
+ - Find [one](number) artist born [between 1861 and 1870](date-period) who wrote more works for [piano](doremus-instrument)
+ - Find [one](number) artist born [between 1861 and 1870](date-period) who wrote more [concertos](doremus-genre)
+ - Find [3](number) artists born [between 1860 and 1870](date-period) who wrote more works for [piano](doremus-instrument)
+ - Find [three](number) artists born [between 1860 and 1870](date-period) who wrote more works for [piano](doremus-instrument)
+ - Find an artist who wrote more works for [piano](doremus-instrument)
+ - Find [4] artist who wrote more works for [piano](doremus-instrument)
+ - Find me [two] artist who wrote more works for [violin](doremus-instrument)
+
 <!-- ## synonym:Antonio Vivaldi
 - Vivaldi
 - vivaldi

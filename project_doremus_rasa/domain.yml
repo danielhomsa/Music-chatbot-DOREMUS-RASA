@@ -14,6 +14,8 @@ intents:
 - works_by_genre
 - find_performance
 - time_test
+- find_artist
+- works_by_filter
 
 entities:
 - name
@@ -63,6 +65,10 @@ actions:
 - action_find_performance
 - utter_find_performance
 - action_time_test
+- action_find_artist
+- utter_find_artist
+- action_year_slot
+- utter_works_by_filter
 
 templates:
   utter_name:
@@ -89,5 +95,8 @@ templates:
   - text: "Ok, with {doremus-genre}"
   utter_find_performance:
   - text: "Searching perfomances"
-
+  utter_find_artist:
+  - text: "Ok, searching"
+  utter_works_by_filter:
+  - text: "Ok, I'll search"
 

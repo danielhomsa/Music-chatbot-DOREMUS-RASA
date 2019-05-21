@@ -2,6 +2,7 @@
   "states": [
     "intent_deny",
     "intent_discover_artist",
+    "intent_find_artist",
     "intent_find_performance",
     "intent_goodbye",
     "intent_greet",
@@ -11,6 +12,7 @@
     "intent_thanks",
     "intent_time_test",
     "intent_works_by",
+    "intent_works_by_filter",
     "intent_works_by_genre",
     "intent_works_by_instrument",
     "intent_works_by_no",
@@ -55,6 +57,10 @@
     "prev_action_discover_artist",
     "prev_action_find_performance",
     "prev_utter_find_performance",
-    "prev_action_time_test"
+    "prev_action_time_test",
+    "prev_action_find_artist",
+    "prev_utter_find_artist",
+    "prev_action_year_slot",
+    "prev_utter_works_by_filter"
   ]
 }

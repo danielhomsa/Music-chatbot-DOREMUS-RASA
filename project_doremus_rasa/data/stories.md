@@ -43,54 +43,37 @@
 ## story_find_performance
 * find_performance{"date-period":null, "geo-city": null, "number":"1"}
  - utter_find_performance
+ - action_time_test
+ - slot{"date-period": {"from": "2019-05-20", "to": "2019-05-27"}}
  - action_find_performance
+
+## story_find_artist
+* find_artist{"number":"1", "date-period":"1000", "geo-city": null}
+- utter_find_artist
+ - action_year_slot
+- action_find_artist
 
 ## story_works_by
 * works_by{"number":"1", "doremus-artist":"Vivaldi", "date-period":"1000"}
  - utter_works_by
- - action_time_test
+ - action_year_slot
+ - slot{"date-period": [["to", 1900], ["from", 1800]]}
+
+## story_works_by_no
 * works_by_no
  - utter_works_by_no
  - action_works_by
  - action_reset_slot
 
-## story_works_by_2
-* works_by{"number":"1", "doremus-artist":"Vivaldi", "date-period":"1000"}
- - utter_works_by
- - action_time_test
+## story_works_by_yes
 * works_by_yes
  - utter_works_by_yes
-* works_by_instrument{"doremus-instrument":"Violin"}
- - utter_works_by_instrument
- - action_works_by
- - action_reset_slot
- - slot{"doremus-instrument":null, "date-period":null}
-
-## story_works_by_3
-* works_by{"number":"1", "doremus-artist":"Vivaldi", "date-period":"1000"}
- - utter_works_by
- - action_time_test
-* works_by_yes
- - utter_works_by_yes
-* works_by_instrument{"doremus-instrument":"Violin"}
- - utter_works_by_instrument
-* works_by_genre{"doremus-genre":"symphony"}
- - utter_works_by_genre
+* works_by_filter{"doremus-instrument":"Violin", "doremus-genre":"symphony", "date-period":"1000"}
+ - utter_works_by_filter
+ - action_year_slot
  - action_works_by
  - action_reset_slot
  - slot{"doremus-instrument":null, "doremus-genre":null, "date-period":null}
-
-## story_works_by_4
-* works_by{"number":"1", "doremus-artist":"Vivaldi", "date-period":"1000"}
- - utter_works_by
- - action_time_test
-* works_by_yes
- - utter_works_by_yes
-* works_by_genre{"doremus-genre":"symphony"}
- - utter_works_by_genre
- - action_works_by
- - action_reset_slot
- - slot{"doremus-genre":null, "date-period":null}
 
 ## story_time_test
 * time_test

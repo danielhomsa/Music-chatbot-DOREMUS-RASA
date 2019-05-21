@@ -9,6 +9,7 @@ pipeline:
 - name: "ner_duckling_http"
   url: http://localhost:8000
   dimensions: ["time", "number"]
+  locale: 'en_US'
   timezone: "Europe/Paris"
 - name: "ner_crf"
 - name: "ner_spacy"

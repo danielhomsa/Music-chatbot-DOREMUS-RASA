@@ -2942,7 +2942,7 @@
         "text": "nah"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -2954,7 +2954,7 @@
         "text": "violin"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 15,
@@ -2966,7 +2966,7 @@
         "text": "only works for clarinet"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -2978,7 +2978,7 @@
         "text": "clarinet"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3002,7 +3002,7 @@
         "text": "piano and violin"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 16,
@@ -3026,7 +3026,7 @@
         "text": "With instrument piano and violin"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3038,7 +3038,7 @@
         "text": "piano"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 9,
@@ -3050,7 +3050,7 @@
         "text": "Ok, with saxophone"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 5,
@@ -3062,7 +3062,7 @@
         "text": "With saxophone"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 5,
@@ -3074,19 +3074,19 @@
         "text": "With violin"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "text": "yes by instrument"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "text": "works by only instrument"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "text": "An instrument"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3098,11 +3098,11 @@
         "text": "violin"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "text": "by instrument"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 15,
@@ -3114,11 +3114,11 @@
         "text": "only works for clarinet"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "text": "yes the instrument"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3130,11 +3130,11 @@
         "text": "clarinet"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "text": "Yes the instrument"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3158,7 +3158,7 @@
         "text": "piano and violin"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 19,
@@ -3182,7 +3182,7 @@
         "text": "Yes the instrument piano and violin"
       },
       {
-        "intent": "works_by_instrument",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3194,15 +3194,15 @@
         "text": "piano"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "text": "yes by the genre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "text": "ok by the genre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 9,
@@ -3214,7 +3214,7 @@
         "text": "of genre musique de chambre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 12,
@@ -3226,7 +3226,7 @@
         "text": "I want only melody"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 3,
@@ -3238,7 +3238,7 @@
         "text": "of melody genre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 23,
@@ -3250,11 +3250,11 @@
         "text": "please show only genre melody"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "text": "the genre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3266,11 +3266,11 @@
         "text": "musique de chambre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "text": "Yes the genre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3282,15 +3282,15 @@
         "text": "melodie"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "text": "yes the genre please"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "text": "yes the genre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3302,11 +3302,11 @@
         "text": "melody"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "text": "The genre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 9,
@@ -3318,7 +3318,7 @@
         "text": "of genre Symphony"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3330,7 +3330,7 @@
         "text": "Symphonie genre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3342,7 +3342,7 @@
         "text": "Opera genre"
       },
       {
-        "intent": "works_by_genre",
+        "intent": "works_by_filter",
         "entities": [
           {
             "start": 0,
@@ -3352,6 +3352,126 @@
           }
         ],
         "text": "Sonata genre"
+      },
+      {
+        "intent": "works_by_filter",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "after 1770",
+            "entity": "date-period"
+          }
+        ],
+        "text": "after 1770"
+      },
+      {
+        "intent": "works_by_filter",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "before 1890",
+            "entity": "date-period"
+          }
+        ],
+        "text": "before 1890"
+      },
+      {
+        "intent": "works_by_filter",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "between 1890 and 1900",
+            "entity": "date-period"
+          }
+        ],
+        "text": "between 1890 and 1900"
+      },
+      {
+        "intent": "works_by_filter",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "after 1770 and before 1800",
+            "entity": "date-period"
+          }
+        ],
+        "text": "after 1770 and before 1800"
+      },
+      {
+        "intent": "works_by_filter",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "until 1770",
+            "entity": "date-period"
+          }
+        ],
+        "text": "until 1770"
+      },
+      {
+        "intent": "works_by_filter",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "after 1670",
+            "entity": "date-period"
+          }
+        ],
+        "text": "after 1670"
+      },
+      {
+        "intent": "works_by_filter",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "before 1790",
+            "entity": "date-period"
+          }
+        ],
+        "text": "before 1790"
+      },
+      {
+        "intent": "works_by_filter",
+        "entities": [
+          {
+            "start": 0,
+            "end": 21,
+            "value": "between 1590 and 1600",
+            "entity": "date-period"
+          }
+        ],
+        "text": "between 1590 and 1600"
+      },
+      {
+        "intent": "works_by_filter",
+        "entities": [
+          {
+            "start": 0,
+            "end": 26,
+            "value": "after 1700 and before 1760",
+            "entity": "date-period"
+          }
+        ],
+        "text": "after 1700 and before 1760"
+      },
+      {
+        "intent": "works_by_filter",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "until 1800",
+            "entity": "date-period"
+          }
+        ],
+        "text": "until 1800"
       },
       {
         "intent": "find_performance",
@@ -3560,12 +3680,12 @@
         "entities": [
           {
             "start": 29,
-            "end": 34,
-            "value": "Paris",
+            "end": 35,
+            "value": "Berlin",
             "entity": "geo-city"
           }
         ],
-        "text": "Find me some performances in Paris"
+        "text": "Find me some performances in Berlin"
       },
       {
         "intent": "find_performance",
@@ -3602,18 +3722,18 @@
           },
           {
             "start": 21,
-            "end": 26,
-            "value": "Paris",
+            "end": 27,
+            "value": "Madrid",
             "entity": "geo-city"
           },
           {
-            "start": 27,
-            "end": 34,
+            "start": 28,
+            "end": 35,
             "value": "tonight",
             "entity": "date-period"
           }
         ],
-        "text": "Tell me one event in Paris tonight"
+        "text": "Tell me one event in Madrid tonight"
       },
       {
         "intent": "find_performance",
@@ -3680,12 +3800,12 @@
         "entities": [
           {
             "start": 23,
-            "end": 28,
-            "value": "Paris",
+            "end": 27,
+            "value": "Metz",
             "entity": "geo-city"
           }
         ],
-        "text": "Are there any event in Paris"
+        "text": "Are there any event in Metz"
       },
       {
         "intent": "find_performance",
@@ -3896,6 +4016,462 @@
           }
         ],
         "text": "this year"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me one artist born in Paris"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "Palermo",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me one artist born in Palermo"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 40,
+            "value": "Caltanissetta",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me one artist born in Caltanissetta"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "Enna",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me one artist born in Enna"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "Catania",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me one artist born in Catania"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 26,
+            "end": 30,
+            "value": "Nice",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "find me an artist born in Nice"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 26,
+            "end": 32,
+            "value": "Venice",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me an artist born in Venice"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "find me one artist born in Paris"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 26,
+            "end": 47,
+            "value": "Saint-Germain-en-Laye",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "find me an artist born in Saint-Germain-en-Laye"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 20,
+            "end": 41,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 67,
+            "end": 72,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find an artist born between 1860 and 1870 who wrote more works for piano"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 20,
+            "end": 41,
+            "value": "between 1862 and 1873",
+            "entity": "date-period"
+          },
+          {
+            "start": 67,
+            "end": 72,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find an artist born between 1862 and 1873 who wrote more works for piano"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "in 1862",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find an artist born in 1862"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "in 1862",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find one artist born in 1862"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "in 1862",
+            "entity": "date-period"
+          },
+          {
+            "start": 44,
+            "end": 50,
+            "value": "melody",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "Find one artist born in 1862 who wrote more melody"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 28,
+            "value": "in 1862",
+            "entity": "date-period"
+          },
+          {
+            "start": 54,
+            "end": 59,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find one artist born in 1862 who wrote more works for piano"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 42,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 58,
+            "end": 66,
+            "value": "melodies",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "Find one artist born between 1860 and 1870 who wrote more melodies"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 42,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 68,
+            "end": 73,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find one artist born between 1860 and 1870 who wrote more works for piano"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 20,
+            "end": 41,
+            "value": "between 1861 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 67,
+            "end": 72,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find an artist born between 1861 and 1870 who wrote more works for piano"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 42,
+            "value": "between 1861 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 68,
+            "end": 73,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find one artist born between 1861 and 1870 who wrote more works for piano"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 21,
+            "end": 42,
+            "value": "between 1861 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 58,
+            "end": 67,
+            "value": "concertos",
+            "entity": "doremus-genre"
+          }
+        ],
+        "text": "Find one artist born between 1861 and 1870 who wrote more concertos"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 5,
+            "end": 6,
+            "value": "3",
+            "entity": "number"
+          },
+          {
+            "start": 20,
+            "end": 41,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 67,
+            "end": 72,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find 3 artists born between 1860 and 1870 who wrote more works for piano"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 5,
+            "end": 10,
+            "value": "three",
+            "entity": "number"
+          },
+          {
+            "start": 24,
+            "end": 45,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 71,
+            "end": 76,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find three artists born between 1860 and 1870 who wrote more works for piano"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 40,
+            "end": 45,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find an artist who wrote more works for piano"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 41,
+            "end": 46,
+            "value": "piano",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find [4] artist who wrote more works for piano"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 46,
+            "end": 52,
+            "value": "violin",
+            "entity": "doremus-instrument"
+          }
+        ],
+        "text": "Find me [two] artist who wrote more works for violin"
       }
     ],
     "regex_features": [],
