@@ -46,12 +46,16 @@
  - action_time_test
  - slot{"date-period": {"from": "2019-05-20", "to": "2019-05-27"}}
  - action_find_performance
+ - action_reset_slot
+ - slot{"doremus-instrument":null, "doremus-genre":null, "date-period":null}
 
 ## story_find_artist
 * find_artist{"number":"1", "date-period":"1000", "geo-city": null}
-- utter_find_artist
+ - utter_find_artist
  - action_year_slot
-- action_find_artist
+ - action_find_artist
+ - action_reset_slot
+ - slot{"doremus-instrument":null, "doremus-genre":null, "date-period":null}
 
 ## story_works_by
 * works_by{"number":"1", "doremus-artist":"Vivaldi", "date-period":"1000"}
@@ -77,6 +81,6 @@
 
 ## story_time_test
 * time_test
-- action_time_test
+ - action_time_test
 
 

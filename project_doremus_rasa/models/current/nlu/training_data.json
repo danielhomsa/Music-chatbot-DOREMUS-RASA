@@ -4472,6 +4472,438 @@
           }
         ],
         "text": "Find me [two] artist who wrote more works for violin"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 25,
+            "end": 30,
+            "value": "Paris",
+            "entity": "geo-city"
+          },
+          {
+            "start": 31,
+            "end": 52,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me 2 artist born in Paris between 1860 and 1870"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "Palermo",
+            "entity": "geo-city"
+          },
+          {
+            "start": 35,
+            "end": 56,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me one artist born in Palermo between 1860 and 1870"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "three",
+            "entity": "number"
+          },
+          {
+            "start": 29,
+            "end": 42,
+            "value": "Caltanissetta",
+            "entity": "geo-city"
+          },
+          {
+            "start": 43,
+            "end": 64,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me three artist born in Caltanissetta between 1860 and 1870"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "Enna",
+            "entity": "geo-city"
+          },
+          {
+            "start": 32,
+            "end": 53,
+            "value": "between 1700 and 1800",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me one artist born in Enna between 1700 and 1800"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "6",
+            "entity": "number"
+          },
+          {
+            "start": 25,
+            "end": 32,
+            "value": "Catania",
+            "entity": "geo-city"
+          },
+          {
+            "start": 33,
+            "end": 54,
+            "value": "between 1500 and 1700",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me 6 artist born in Catania between 1500 and 1700"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 43,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 47,
+            "end": 52,
+            "value": "Paris",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me 2 artist born between 1860 and 1870 in Paris"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 43,
+            "value": "between 1700 and 1800",
+            "entity": "date-period"
+          },
+          {
+            "start": 47,
+            "end": 54,
+            "value": "Palermo",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me 2 artist born between 1700 and 1800 in Palermo"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 43,
+            "value": "between 1500 and 1700",
+            "entity": "date-period"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "value": "Vienna",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me 2 artist born between 1500 and 1700 in Vienna"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 43,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 47,
+            "end": 54,
+            "value": "Catania",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me 2 artist born between 1860 and 1870 in Catania"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 43,
+            "value": "between 1800 and 1850",
+            "entity": "date-period"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "value": "Madrid",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me 2 artist born between 1800 and 1850 in Madrid"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 43,
+            "value": "between 1000 and 1800",
+            "entity": "date-period"
+          },
+          {
+            "start": 47,
+            "end": 54,
+            "value": "Palermo",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me 2 artist born between 1000 and 1800 in Palermo"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 43,
+            "value": "between 1550 and 1750",
+            "entity": "date-period"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "value": "Vienna",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me 2 artist born between 1550 and 1750 in Vienna"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 9,
+            "value": "2",
+            "entity": "number"
+          },
+          {
+            "start": 22,
+            "end": 43,
+            "value": "between 1860 and 1870",
+            "entity": "date-period"
+          },
+          {
+            "start": 47,
+            "end": 53,
+            "value": "Berlin",
+            "entity": "geo-city"
+          }
+        ],
+        "text": "Find me 2 artist born between 1860 and 1870 in Berlin"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 32,
+            "value": "Paris",
+            "entity": "geo-city"
+          },
+          {
+            "start": 33,
+            "end": 40,
+            "value": "in 1860",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me one artist born in Paris in 1860"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "Palermo",
+            "entity": "geo-city"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "in 1700",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me one artist born in Palermo in 1700"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 40,
+            "value": "Caltanissetta",
+            "entity": "geo-city"
+          },
+          {
+            "start": 41,
+            "end": 48,
+            "value": "in 1800",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me one artist born in Caltanissetta in 1800"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "Enna",
+            "entity": "geo-city"
+          },
+          {
+            "start": 32,
+            "end": 39,
+            "value": "in 1600",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me one artist born in Enna in 1600"
+      },
+      {
+        "intent": "find_artist",
+        "entities": [
+          {
+            "start": 8,
+            "end": 11,
+            "value": "one",
+            "entity": "number"
+          },
+          {
+            "start": 27,
+            "end": 34,
+            "value": "Catania",
+            "entity": "geo-city"
+          },
+          {
+            "start": 35,
+            "end": 42,
+            "value": "in 1650",
+            "entity": "date-period"
+          }
+        ],
+        "text": "Find me one artist born in Catania in 1650"
       }
     ],
     "regex_features": [],

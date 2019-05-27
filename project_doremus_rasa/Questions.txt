@@ -1,0 +1,16 @@
+Questions:
+
+-working
+find me 2 artists born in Vienna between 1700 and 1800
+give me 2 works by bach (with violin and sonata genre)
+tell me about mozart
+find me 2 events in paris this week (next week, this month, next month, next 2 months)
+give me 2 artists born in vienna who wrote more works for piano
+can you tell me 2 wroks by mozart? (with violin after 1780)
+talk me about liszt
+
+
+-not working
+find me 2 artists born between 1700 and 1800 in Paris (duckling not recognizing the date)
+what do you know about liszt?
+who is liszt?

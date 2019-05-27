@@ -2,13 +2,20 @@
   "action_fingerprints": {
     "action_listen": {
       "slots": [
-        "number",
-        "doremus-instrument",
-        "geo-city",
         "name",
+        "geo-city",
+        "number",
+        "date-period",
         "doremus-genre",
         "doremus-artist",
-        "date-period"
+        "doremus-instrument"
+      ]
+    },
+    "action_reset_slot": {
+      "slots": [
+        "date-period",
+        "doremus-instrument",
+        "doremus-genre"
       ]
     },
     "utter_goodbye": {
@@ -17,26 +24,10 @@
     "utter_thanks": {
       "slots": []
     },
-    "action_reset_slot": {
-      "slots": [
-        "doremus-instrument",
-        "doremus-genre",
-        "date-period"
-      ]
-    },
     "utter_name": {
       "slots": []
     },
-    "action_joke": {
-      "slots": []
-    },
     "utter_laugh": {
-      "slots": []
-    },
-    "action_discover_artist": {
-      "slots": []
-    },
-    "utter_greet": {
       "slots": []
     },
     "action_year_slot": {
@@ -44,15 +35,18 @@
         "date-period"
       ]
     },
+    "action_joke": {
+      "slots": []
+    },
     "action_time_test": {
       "slots": [
         "date-period"
       ]
     },
-    "action_find_artist": {
+    "utter_greet": {
       "slots": []
     },
-    "action_find_performance": {
+    "action_discover_artist": {
       "slots": []
     }
   },
@@ -70,7 +64,7 @@
     "rasa_core.policies.memoization.MemoizationPolicy",
     "rasa_core.policies.form_policy.FormPolicy"
   ],
-  "trained_at": "20190521-170130",
+  "trained_at": "20190522-170321",
   "rasa_core": "0.13.5",
   "tensorflow": "1.12.0",
   "sklearn": "0.20.2"

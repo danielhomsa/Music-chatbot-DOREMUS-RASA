@@ -349,6 +349,7 @@ class ActionFindArtist(Action):
 		city = tracker.get_slot('geo-city')
 		instrument_value = ""
 		genre_value = ""
+		print(tracker.latest_message['entities'])
 		# # Split artist name to capitalize name
 		# artist_name = artist.split(" ")
 		# for index, name in enumerate(artist_name):
