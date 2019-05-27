@@ -1,4 +1,4 @@
 action_endpoint:
   url: "http://localhost:5055/webhook"
 slack_webhook:
-  url: "https://hooks.slack.com/services/..."
+  url: "https://hooks.slack.com/services/"
