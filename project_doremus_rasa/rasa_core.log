@@ -5703,3 +5703,1603 @@ There is no active form
 Predicted next action using policy_0_KerasPolicy
 Predicted next action 'action_listen' with prob 1.00.
 Action 'action_listen' ended with events '[]'
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Available web server routes: 
+static                                             HEAD, OPTIONS, GET             /static/[filename]
+slack_webhook.health                               HEAD, OPTIONS, GET             /webhooks/slack/
+slack_webhook.webhook                              POST, HEAD, OPTIONS, GET       /webhooks/slack/webhook
+Rasa Core server is up and running on http://localhost:5005
+Creating a new tracker for id 'UJY2B3VNH'.
+Received user message 'hello' with intent '{'name': 'greet', 'confidence': 0.747035086736665}' and entities '[]'
+Logged UserUtterance - tracker now has 2 events
+Current slot values: 
+	date-period: None
+	doremus-artist: None
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: None
+	number: None
+Current tracker state [None, None, None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '7'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_name' with prob 1.00.
+Action 'utter_name' ended with events '[]'
+Bot utterance 'BotUttered(text: Hey there! Tell me your name., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [None, None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_name': 1.0, 'intent_greet': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'my name is daniel' with intent '{'name': 'name', 'confidence': 0.7363861934075584}' and entities '[{'start': 11, 'end': 17, 'value': 'daniel', 'entity': 'name', 'confidence': 0.838809715049918, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 7 events
+Current slot values: 
+	date-period: None
+	doremus-artist: None
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [None, {}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_name': 1.0, 'intent_greet': 1.0}, {'slot_name_0': 1.0, 'entity_name': 1.0, 'prev_action_listen': 1.0, 'intent_name': 1.0}]
+There is a memorised next action '9'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'utter_greet' with prob 1.00.
+Action 'utter_greet' ended with events '[]'
+Bot utterance 'BotUttered(text: Nice to you meet you daniel. How can I help?, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{}, {'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_name': 1.0, 'intent_greet': 1.0}, {'slot_name_0': 1.0, 'entity_name': 1.0, 'prev_action_listen': 1.0, 'intent_name': 1.0}, {'prev_utter_greet': 1.0, 'slot_name_0': 1.0, 'entity_name': 1.0, 'intent_name': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is liszt?' with intent '{'name': 'discover_artist', 'confidence': 0.6892743247797544}' and entities '[{'start': 7, 'end': 12, 'value': 'liszt', 'entity': 'doremus-artist', 'confidence': 0.8809686474555203, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 12 events
+Current slot values: 
+	date-period: None
+	doremus-artist: liszt
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'prev_action_listen': 1.0, 'intent_greet': 1.0}, {'prev_utter_name': 1.0, 'intent_greet': 1.0}, {'slot_name_0': 1.0, 'entity_name': 1.0, 'prev_action_listen': 1.0, 'intent_name': 1.0}, {'prev_utter_greet': 1.0, 'slot_name_0': 1.0, 'entity_name': 1.0, 'intent_name': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering liszt..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_name': 1.0, 'intent_greet': 1.0}, {'slot_name_0': 1.0, 'entity_name': 1.0, 'prev_action_listen': 1.0, 'intent_name': 1.0}, {'prev_utter_greet': 1.0, 'slot_name_0': 1.0, 'entity_name': 1.0, 'intent_name': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Franz Liszt
+Franz Liszt (born Franz Joseph Liszt) (German pronunciation: [ˈfʁants ˈlɪst]; Hungarian: Liszt Ferencz, in modern usage Liszt Ferenc, pronounced [ˈlist ˈfɛrɛnt͡s]; October 22, 1811 – July 31, 1886) was a prolific 19th-century Hungarian composer, virtuoso pianist, conductor, music teacher, arranger, organist, philanthropist, author, nationalist and a Franciscan tertiary. Liszt gained renown in Europe during the early nineteenth century for his prodigious virtuosic skill as a pianist. He was claimed by some contemporaries to have been the most technically advanced pianist of his age.
+Birth place: Raiding, Austria
+Death place: Bayreuth
+Death date: 1886-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'entity_name': 1.0, 'prev_action_listen': 1.0, 'intent_name': 1.0}, {'prev_utter_greet': 1.0, 'slot_name_0': 1.0, 'entity_name': 1.0, 'intent_name': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is a memorised next action '0'
+There is no active form
+Predicted next action using policy_2_MemoizationPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 19 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'prev_utter_greet': 1.0, 'slot_name_0': 1.0, 'entity_name': 1.0, 'intent_name': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is haydn?' with intent '{'name': 'discover_artist', 'confidence': 0.5914251734911391}' and entities '[{'start': 7, 'end': 12, 'value': 'haydn', 'entity': 'doremus-artist', 'confidence': 0.5167296907483543, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 25 events
+Current slot values: 
+	date-period: None
+	doremus-artist: haydn
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering haydn..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'prev_utter_discover_artist': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Joseph Haydn
+(Franz) Joseph Haydn (/ˈdʒoʊzəf ˈhaɪdən/; German: [ˈjoːzɛf ˈhaɪdən] ; 31 March 1732 – 31 May 1809) was a prolific Austrian composer of the Classical period. He was instrumental in the development of chamber music such as the piano trio and his contributions to musical form have earned him the epithets "Father of the Symphony" and "Father of the String Quartet". He was a friend and mentor of Mozart, a teacher of Beethoven, and the older brother of composer Michael Haydn.
+Birth place: Rohrau, Austria
+Death place: Vienna
+Death date: 1809-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'prev_utter_discover_artist': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 32 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'prev_utter_discover_artist': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'prev_utter_discover_artist': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'prev_utter_discover_artist': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 38 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the artist you requested, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 45 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the artist you requested, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: If you meant handel I found this: , data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 53 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 59 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 65 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the artist you requested, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: If you meant handel I found this: , data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 73 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 79 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 85 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is handel?' with intent '{'name': 'discover_artist', 'confidence': 0.672120330423093}' and entities '[{'start': 7, 'end': 13, 'value': 'handel', 'entity': 'doremus-artist', 'confidence': 0.49031265810105484, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 91 events
+Current slot values: 
+	date-period: None
+	doremus-artist: handel
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering handel..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is handel?' with intent '{'name': 'discover_artist', 'confidence': 0.672120330423093}' and entities '[{'start': 7, 'end': 13, 'value': 'handel', 'entity': 'doremus-artist', 'confidence': 0.49031265810105484, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 97 events
+Current slot values: 
+	date-period: None
+	doremus-artist: handel
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering handel..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 103 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 109 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the artist you requested, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: If you meant handel I found this: , data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the biography of the artist, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 118 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 124 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the artist you requested, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: If you meant haydn I found this: , data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: Joseph Haydn
+(Franz) Joseph Haydn (/ˈdʒoʊzəf ˈhaɪdən/; German: [ˈjoːzɛf ˈhaɪdən] ; 31 March 1732 – 31 May 1809) was a prolific Austrian composer of the Classical period. He was instrumental in the development of chamber music such as the piano trio and his contributions to musical form have earned him the epithets "Father of the Symphony" and "Father of the String Quartet". He was a friend and mentor of Mozart, a teacher of Beethoven, and the older brother of composer Michael Haydn.
+Birth place: Rohrau, Austria
+Death place: Vienna
+Death date: 1809-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 133 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 139 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 145 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the artist you requested, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: If you meant haydn I found this: , data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: Joseph Haydn
+(Franz) Joseph Haydn (/ˈdʒoʊzəf ˈhaɪdən/; German: [ˈjoːzɛf ˈhaɪdən] ; 31 March 1732 – 31 May 1809) was a prolific Austrian composer of the Classical period. He was instrumental in the development of chamber music such as the piano trio and his contributions to musical form have earned him the epithets "Father of the Symphony" and "Father of the String Quartet". He was a friend and mentor of Mozart, a teacher of Beethoven, and the older brother of composer Michael Haydn.
+Birth place: Rohrau, Austria
+Death place: Vienna
+Death date: 1809-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 154 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the artist you requested, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: If you meant haydn I found this: , data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: Joseph Haydn
+(Franz) Joseph Haydn (/ˈdʒoʊzəf ˈhaɪdən/; German: [ˈjoːzɛf ˈhaɪdən] ; 31 March 1732 – 31 May 1809) was a prolific Austrian composer of the Classical period. He was instrumental in the development of chamber music such as the piano trio and his contributions to musical form have earned him the epithets "Father of the Symphony" and "Father of the String Quartet". He was a friend and mentor of Mozart, a teacher of Beethoven, and the older brother of composer Michael Haydn.
+Birth place: Rohrau, Austria
+Death place: Vienna
+Death date: 1809-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 163 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 169 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Failed to run custom action 'action_discover_artist'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_discover_artist'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_discover_artist' ended with events '[]'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is hayden?' with intent '{'name': 'discover_artist', 'confidence': 0.6846915697374816}' and entities '[{'start': 7, 'end': 13, 'value': 'hayden', 'entity': 'doremus-artist', 'confidence': 0.6981643096062333, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 175 events
+Current slot values: 
+	date-period: None
+	doremus-artist: hayden
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering hayden..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the artist you requested, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: If you meant Franz Joseph Haydn I found this: , data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: Joseph Haydn
+(Franz) Joseph Haydn (/ˈdʒoʊzəf ˈhaɪdən/; German: [ˈjoːzɛf ˈhaɪdən] ; 31 March 1732 – 31 May 1809) was a prolific Austrian composer of the Classical period. He was instrumental in the development of chamber music such as the piano trio and his contributions to musical form have earned him the epithets "Father of the Symphony" and "Father of the String Quartet". He was a friend and mentor of Mozart, a teacher of Beethoven, and the older brother of composer Michael Haydn.
+Birth place: Rohrau, Austria
+Death place: Vienna
+Death date: 1809-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is list?' with intent '{'name': 'discover_artist', 'confidence': 0.6825596720352158}' and entities '[{'start': 7, 'end': 11, 'value': 'list', 'entity': 'doremus-artist', 'confidence': 0.5106593430525721, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 184 events
+Current slot values: 
+	date-period: None
+	doremus-artist: list
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering list..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the biography of the artist, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is lizt?' with intent '{'name': 'discover_artist', 'confidence': 0.7830632889687001}' and entities '[{'start': 7, 'end': 11, 'value': 'lizt', 'entity': 'doremus-artist', 'confidence': 0.6468470709652476, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 191 events
+Current slot values: 
+	date-period: None
+	doremus-artist: lizt
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering lizt..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find the artist you requested, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: If you meant Ferenc Liszt I found this: , data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Bot utterance 'BotUttered(text: Franz Liszt
+Franz Liszt (born Franz Joseph Liszt) (German pronunciation: [ˈfʁants ˈlɪst]; Hungarian: Liszt Ferencz, in modern usage Liszt Ferenc, pronounced [ˈlist ˈfɛrɛnt͡s]; October 22, 1811 – July 31, 1886) was a prolific 19th-century Hungarian composer, virtuoso pianist, conductor, music teacher, arranger, organist, philanthropist, author, nationalist and a Franciscan tertiary. Liszt gained renown in Europe during the early nineteenth century for his prodigious virtuosic skill as a pianist. He was claimed by some contemporaries to have been the most technically advanced pianist of his age.
+Birth place: Raiding, Austria
+Death place: Bayreuth
+Death date: 1886-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'who is Franz Liszt?' with intent '{'name': 'discover_artist', 'confidence': 0.747751359727439}' and entities '[{'start': 13, 'end': 18, 'value': 'liszt', 'entity': 'doremus-artist', 'confidence': 0.5025664094403973, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 200 events
+Current slot values: 
+	date-period: None
+	doremus-artist: liszt
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering liszt..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Franz Liszt
+Franz Liszt (born Franz Joseph Liszt) (German pronunciation: [ˈfʁants ˈlɪst]; Hungarian: Liszt Ferencz, in modern usage Liszt Ferenc, pronounced [ˈlist ˈfɛrɛnt͡s]; October 22, 1811 – July 31, 1886) was a prolific 19th-century Hungarian composer, virtuoso pianist, conductor, music teacher, arranger, organist, philanthropist, author, nationalist and a Franciscan tertiary. Liszt gained renown in Europe during the early nineteenth century for his prodigious virtuosic skill as a pianist. He was claimed by some contemporaries to have been the most technically advanced pianist of his age.
+Birth place: Raiding, Austria
+Death place: Bayreuth
+Death date: 1886-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'what do you know about liszt?' with intent '{'name': 'discover_artist', 'confidence': 0.7041432111786674}' and entities '[{'start': 23, 'end': 28, 'value': 'liszt', 'entity': 'doremus-artist', 'confidence': 0.9540163269180442, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 207 events
+Current slot values: 
+	date-period: None
+	doremus-artist: liszt
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering liszt..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Franz Liszt
+Franz Liszt (born Franz Joseph Liszt) (German pronunciation: [ˈfʁants ˈlɪst]; Hungarian: Liszt Ferencz, in modern usage Liszt Ferenc, pronounced [ˈlist ˈfɛrɛnt͡s]; October 22, 1811 – July 31, 1886) was a prolific 19th-century Hungarian composer, virtuoso pianist, conductor, music teacher, arranger, organist, philanthropist, author, nationalist and a Franciscan tertiary. Liszt gained renown in Europe during the early nineteenth century for his prodigious virtuosic skill as a pianist. He was claimed by some contemporaries to have been the most technically advanced pianist of his age.
+Birth place: Raiding, Austria
+Death place: Bayreuth
+Death date: 1886-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'do you know something about mozart?' with intent '{'name': 'discover_artist', 'confidence': 0.6941371723034876}' and entities '[{'start': 28, 'end': 34, 'value': 'mozart', 'entity': 'doremus-artist', 'confidence': 0.9980414892394818, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 214 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: None
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering mozart..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Mozart
+Wolfgang Amadeus Mozart (German: [ˈvɔlfɡaŋ amaˈdeːʊs ˈmoːtsaʁt], English see fn.; 27 January 1756 – 5 December 1791), baptised as Johannes Chrysostomus Wolfgangus Theophilus Mozart, was a prolific and influential composer of the Classical era. Born in Salzburg, Mozart showed prodigious ability from his earliest childhood. Already competent on keyboard and violin, he composed from the age of five and performed before European royalty.
+Birth place: Salzburg
+Death place: Vienna
+Death date: 1791-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'

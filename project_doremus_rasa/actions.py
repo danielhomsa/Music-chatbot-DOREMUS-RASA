@@ -14,9 +14,78 @@ import parsedatetime
 from datetime import datetime
 from time import mktime
 import pendulum
+from difflib import get_close_matches
+from difflib import SequenceMatcher
 
 logger = logging.getLogger(__name__)
 
+# Computing the similarity of an artist name with the artists in the file 
+# if it is not found in the artists file
+# The search ends if the similarity is above 0.8 or when reaching the end of the file
+def similarArtist(artist, dispatcher):
+	similarity_ratio = 0.0
+	artist_name = ""
+	dispatcher.utter_message("Sorry, I couldn't find the artist you requested")
+	with open("artists.json") as art_json:
+		artists = json.load(art_json)
+		for a in artists['results']['bindings']:
+			artist_name = a['names']['value'].lower()
+			close_match = get_close_matches(artist, artist_name.split())
+			if(len(close_match) >= 1):
+				sequence_ratio = SequenceMatcher(None, artist, close_match[0]).ratio()
+				if(sequence_ratio > similarity_ratio):
+					artist_value = a['composer']['value']
+					artist_name = a['names']['value'].split("|")
+					similarity_ratio = sequence_ratio
+					if(similarity_ratio >= 0.8):
+						break
+		dispatcher.utter_message("If you meant " + artist_name[0] +
+								" I found this: ")
+	return artist_value
+
+# Computing the similarity of a genre with the genres in the file 
+# if it is not found in the genres file
+# The search ends if the similarity is above 0.8 or when reaching the end of the file
+def similarGenre(genre, dispatcher):
+	similarity_ratio = 0.0
+	dispatcher.utter_message("Sorry, I couldn't find the genre you requested")
+	with open("genres.json") as gen_json:
+		genres = json.load(gen_json)
+		for g in genres['results']['bindings']:
+			genre_name = g['names']['value'].lower()
+			close_match = get_close_matches(genre, genre_name.split("|"))
+			if(len(close_match) >= 1):
+				genre_ratio = SequenceMatcher(None, genre, close_match[0]).ratio()
+				if(genre_ratio > similarity_ratio):
+					genre_value = g['composer']['value']
+					similarity_ratio = genre_ratio
+					if(similarity_ratio >= 0.8):
+						break
+		dispatcher.utter_message("I guess you meant " + close_match[0])
+	return genre_value
+
+# Computing the similarity of an instrument name with the instruments in the file 
+# if it is not found in the instruments file
+# The search ends if the similarity is above 0.8 or when reaching the end of the file
+def similarInstrument(instrument, dispatcher):
+	similarity_instr = 0.0
+	dispatcher.utter_message("Sorry, I couldn't find the instrument you requested")
+	with open("instruments.json") as instr_json:
+		instruments = json.load(instr_json)
+		for i in instruments['results']['bindings']:
+			instrument_name = i['instruments']['value'].lower()
+			close_match = get_close_matches(instrument, instrument_name.split("|"))
+			if(len(close_match) >= 1):
+				instr_ratio = SequenceMatcher(None, instrument, close_match[0]).ratio()
+				if(instr_ratio > similarity_instr):
+					instrument_value = i['composer']['value']
+					similarity_instr = instr_ratio
+					if(similarity_instr >= 0.8):
+						break
+		dispatcher.utter_message("I guess you meant " + close_match[0])
+	return instrument_value
+
+# Function for resetting the slots
 class ResetSlot(Action):
 
     def name(self):
@@ -25,19 +94,23 @@ class ResetSlot(Action):
     def run(self, dispatcher, tracker, domain):
         return [SlotSet("doremus-instrument", None),SlotSet("doremus-genre", None),SlotSet("date-period", None)]
 
+# Custom slot used in the find performance action
 class ActionTimeTest(Action):
 	def name(self):
 		return "action_time_test"
 
 	def run(self, dispatcher, tracker, domain):
+		# Retrieving the entities from the last message
 		entities = tracker.latest_message['entities']
 		time_value = ""
 		start_day = ""
 		end_day = ""
 		time_grain = ""
 		for e in entities:
+			# Verifying if the extracted entity is from the duckling extractor and if it is a time entity
 			if(e['extractor'] == 'ner_duckling_http' and e['entity'] == 'time'):
 				time_value = e['value']
+				# If the extracted value contains only 1 date, an ending date has to be computed
 				if(isinstance(time_value, str)):
 					time_grain = e['additional_info']['grain']
 					start_day = pendulum.parse(time_value)
@@ -47,26 +120,33 @@ class ActionTimeTest(Action):
 						end_day = start_day.add(months=1)
 					elif(time_grain == "year"):
 						end_day = start_day.add(years=1)
+				# If the extracted value is a range its values are saved
 				if(isinstance(time_value, dict)):
 					start_day = time_value['from']
 					end_day = time_value['to']
+		# Values for the slot 'date-period'
 		date_range = {'from':str(start_day).split("T")[0], 'to':str(end_day).split("T")[0]}
 		return[SlotSet('date-period', date_range)]
 
+# Custom slot used in the works by and find artist actions
 class ActionYearExtractionSlot(Action):
 	def name(self):
 		return "action_year_slot"
 
 	def run(self, dispatcher, tracker, domain):
-		time_slot = tracker.latest_message['entities'][0]['value'] 
+		# Retrieving the entities from the last message
 		entities = tracker.latest_message['entities']
 		entity_value = {}
 		years = []
 		for e in entities:
+			# Verifying if the extracted entity is from the duckling extractor and if it is a time entity
 			if(e['extractor'] == 'ner_duckling_http' and e['entity'] == 'time'):
+				# Extracting the years values
 				years = [int(date) for date in e['text'].split() if date.isdigit()]
+				# If the extraction returns a string it is not an interval of dates
 				if(isinstance(e['value'], str)):
 					entity_value = {"not interval": years[0]}
+				# If the extraction returns a dictionary it is a range of dates
 				elif(isinstance(e['value'], dict)):
 					if(e['value']['to'] == None):
 						entity_value = {"to": None, "from": years[0]}
@@ -74,6 +154,7 @@ class ActionYearExtractionSlot(Action):
 						entity_value = {"to": years[0], "from": None}
 					else:
 						entity_value = {"to": max(years), "from": min(years)}
+		# The date(s) values are returned to the slot
 		return [SlotSet('date-period', entity_value)]
 
 class ActionJoke(Action):
@@ -88,7 +169,8 @@ class ActionJoke(Action):
         dispatcher.utter_message(joke)  # send the message back to the user
         return []
 
-# function to do query by artist, genre, instrument and/or filter by year
+# Function to do query by artist, genre, instrument and/or filter by year
+# Artists, instruments and genres values are retrieved from their respective json files, according to their names/labels
 class ActionWorksBy(Action):
 	def name(self):
 		return "action_works_by"
@@ -102,12 +184,6 @@ class ActionWorksBy(Action):
 		artist_value = ""
 		instrument_value = ""
 		genre_value = ""
-		# # Split artist name to capitalize name
-		# artist_name = artist.split(" ")
-		# for index, name in enumerate(artist_name):
-		# 	artist_name[index] = name.capitalize()
-		# cap_artist = " ".join(artist_name)
-		# Query to get works by artist and limited by number
 		sparql = SPARQLWrapper("http://data.doremus.org/sparql")
 		query = """PREFIX mus: <http://data.doremus.org/ontology#> 
 							PREFIX ecrm: <http://erlangen-crm.org/current/>
@@ -144,6 +220,8 @@ class ActionWorksBy(Action):
 					if(artist in artist_name):
 						artist_value = a['composer']['value']
 						break
+				if(artist_value == ""):
+					artist_value = similarArtist(artist, dispatcher)
 			query += """VALUES(?composer) {
                    (<""" + artist_value + """>)
                  }"""
@@ -156,6 +234,8 @@ class ActionWorksBy(Action):
 					if(genre in genre_name):
 						genre_value = g['gen']['value']
 						break
+				if(genre_value == ""):
+					genre_value = similarGenre(genre, dispatcher)
 			query += """VALUES(?gen) {
                    (<""" + genre_value + """>)
                  }"""
@@ -168,8 +248,8 @@ class ActionWorksBy(Action):
 					if(instrument in instrument_name):
 						instrument_value = i['instr']['value']
 						break
-			# query += """?expression mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance ?mop .
-			# ?mop skos:prefLabel \"""" + instrument + """\" . """
+				if(instrument_value == ""):
+					instrument_value = similarInstrument(instrument, dispatcher)
 			query += """?casting mus:U23_has_casting_detail ?castingDetail . 
                  ?castingDetail mus:U2_foresees_use_of_medium_of_performance / skos:exactMatch* ?instrument . 
                  VALUES(?instrument) {
@@ -188,11 +268,6 @@ class ActionWorksBy(Action):
 				else:
 					query += """FILTER ( ?comp >= \"""" + str(date_period['from']) + """\"^^xsd:gYear 
 					AND ?comp <= \" """ + str(date_period['to']) + """\"^^xsd:gYear) . """
-			# print(date_period)
-			# date_range = [int(date) for date in date_period.split() if date.isdigit()]
-			# print(date_range)
-			# if(len(date_range) == 2):
-			# 	query += """ FILTER ( ?comp >= ' """ + str(min(date_range)) + """'^^xsd:gYear AND ?comp <= ' """ + str(max(date_range)) + """'^^xsd:gYear ) . """
 		sparql.setQuery(query + """ } GROUP BY ?expression ORDER BY rand() LIMIT """ + str(number))
 		# Converting the response to json format
 		sparql.setReturnFormat(JSON)
@@ -201,16 +276,15 @@ class ActionWorksBy(Action):
 		works = []
 		for work in results["results"]["bindings"]:
 			works.append(work["title"]["value"])
-		# print(works)
-		# Sending message to user
-		# print(tracker.latest_message['entities'], " tracker")
 		print(date_period)
+		# Sending message to user
 		if(len(works) == 0):
 			dispatcher.utter_message("Sorry, I couldn't find any works with these filters")
 		else:
 			dispatcher.utter_message("\n".join(works))
 		return []
 
+# Action to discover a specific artist, using the value from the json file
 class ActionDiscoverArtist(Action):
 	def name(self):
 		return "action_discover_artist"
@@ -227,6 +301,8 @@ class ActionDiscoverArtist(Action):
 					if(artist in artist_name):
 						artist_value = a['composer']['value']
 						break
+		if(artist_value == ""):
+			artist_value = similarArtist(artist, dispatcher)
 		sparql = SPARQLWrapper("http://data.doremus.org/sparql")
 		query = """	PREFIX mus: <http://data.doremus.org/ontology#> 
 					PREFIX ecrm: <http://erlangen-crm.org/current/>
@@ -256,15 +332,16 @@ class ActionDiscoverArtist(Action):
 		sparql.setQuery(query)
 		sparql.setReturnFormat(JSON)
 		results = sparql.query().convert()
-		artist_result = results['results']['bindings'][0]
+		artist_bindings = results['results']['bindings']
 		artist_name = ""
 		artist_bio = ""
 		artist_birth_place = "-"
 		artist_death_place = "-"
 		artist_death = ""
-		if(artist_result == ""):
-			dispatcher.utter_message("Sorry, I couldn't find the artist you requested")
+		if(len(artist_bindings) == 0):
+			dispatcher.utter_message("Sorry, I couldn't find the biography of the artist")
 		else:
+			artist_result = artist_bindings[0]
 			artist_name = artist_result['name']['value']
 			artist_bio = artist_result['bio']['value']
 			if(artist_result['birth_place']):
@@ -278,6 +355,8 @@ class ActionDiscoverArtist(Action):
 									"Death date: " + artist_death)
 		return []
 
+# Action corresponding to the find performance intent
+# Recieves a custom slot from the ActionTimeTest function
 class ActionFindPerformance(Action):
 	def name(self):
 		return "action_find_performance"
@@ -289,8 +368,6 @@ class ActionFindPerformance(Action):
 		number = tracker.get_slot('number')
 		if(number == None):
 			number = 1
-		# struct_time = cal.parse(date)
-		# dt = str(datetime.fromtimestamp(mktime(struct_time[0])))
 		start_day = date['from']
 		end_day = date['to']
 		sparql = SPARQLWrapper("http://data.doremus.org/sparql")
@@ -330,13 +407,13 @@ class ActionFindPerformance(Action):
 					"\n" + p['placeName']['value'] + "\n" + p['actorsName']['value'] +
 					"\n" + p['date']['value'] + "\n\n")
 			dispatcher.utter_message("\n\n".join(performances))
-		# print(tracker.latest_message['entities'][0], " entities")
 		print(start_day)
 		print(date, " date")
 		print(city, " city")
 		print(number, " number")
 		return []
 
+# Action to find an artist according to the genre, instruments, date period when was born and/or city where was born
 class ActionFindArtist(Action):
 	def name(self):
 		return "action_find_artist"
@@ -350,12 +427,6 @@ class ActionFindArtist(Action):
 		instrument_value = ""
 		genre_value = ""
 		print(tracker.latest_message['entities'])
-		# # Split artist name to capitalize name
-		# artist_name = artist.split(" ")
-		# for index, name in enumerate(artist_name):
-		# 	artist_name[index] = name.capitalize()
-		# cap_artist = " ".join(artist_name)
-		# Query to get works by artist and limited by number
 		sparql = SPARQLWrapper("http://data.doremus.org/sparql")
 		query = """PREFIX mus: <http://data.doremus.org/ontology#> 
 							PREFIX ecrm: <http://erlangen-crm.org/current/>
@@ -386,6 +457,8 @@ class ActionFindArtist(Action):
 					if(genre in genre_name):
 						genre_value = g['gen']['value']
 						break
+				if(genre_value == ""):
+					genre_value = similarGenre(genre, dispatcher)
 			query += """VALUES(?gen) {
                    (<""" + genre_value + """>)
                  }"""
@@ -398,8 +471,8 @@ class ActionFindArtist(Action):
 					if(instrument in instrument_name):
 						instrument_value = i['instr']['value']
 						break
-			# query += """?expression mus:U13_has_casting / mus:U23_has_casting_detail / mus:U2_foresees_use_of_medium_of_performance ?mop .
-			# ?mop skos:prefLabel \"""" + instrument + """\" . """
+				if(instrument_value == ""):
+					instrument_value = similarInstrument(instrument, dispatcher)
 			query += """?casting mus:U23_has_casting_detail ?castingDetail . 
                  ?castingDetail mus:U2_foresees_use_of_medium_of_performance / skos:exactMatch* ?instrument . 
                  VALUES(?instrument) {
@@ -436,9 +509,6 @@ class ActionFindArtist(Action):
 			dispatcher.utter_message("Sorry, I didn't find anything")
 		else:
 			for a in artists_results:
-				# artists.append(a['name']['value'] + "\n" + a['birth_place']['value'] +
-				# 	"\n" + a['birth_date']['value'] + "\n" + a['death_place']['value'] +
-				# 	"\n" + a['death_date']['value'] + "\n" + a['count']['value'] + "\n\n")
 				artist_name = a['name']['value']
 				artist_bdate = a['birth_date']['value']
 				if(a['birth_place']):

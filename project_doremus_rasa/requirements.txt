@@ -34,3 +34,6 @@ spacy~=2.0.18
 sklearn_crfsuite==0.3.6
 keras-applications==1.0.6
 keras-preprocessing==1.0.5
+SPARQLWrapper==1.8.2
+parsedatetime==2.4
+pendulum==2.0.4

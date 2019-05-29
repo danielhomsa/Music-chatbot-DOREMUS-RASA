@@ -8,9 +8,9 @@ find me 2 events in paris this week (next week, this month, next month, next 2 m
 give me 2 artists born in vienna who wrote more works for piano
 can you tell me 2 wroks by mozart? (with violin after 1780)
 talk me about liszt
-
+who is liszt?
+what do you know about liszt?
+do you know something about mozart?
 
 -not working
 find me 2 artists born between 1700 and 1800 in Paris (duckling not recognizing the date)
-what do you know about liszt?
-who is liszt?

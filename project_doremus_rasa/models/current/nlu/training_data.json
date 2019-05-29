@@ -1186,6 +1186,126 @@
         "text": "Tell me about Rachmaninov"
       },
       {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 23,
+            "end": 28,
+            "value": "Liszt",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "What do you know about Liszt?"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "Liszt",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Who is Liszt?"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "Mozart",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "What do you know about Mozart?"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "Beethoven",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Who is Beethoven?"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 23,
+            "end": 27,
+            "value": "Bach",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "What do you know about Bach?"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "Bach",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Who is Bach?"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 23,
+            "end": 35,
+            "value": "Tschaikowski",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "What do you know about Tschaikowski?"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 7,
+            "end": 19,
+            "value": "Tschaikowski",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Who is Tschaikowski?"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 23,
+            "end": 41,
+            "value": "Franz Joseph Haydn",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "What do you know about Franz Joseph Haydn?"
+      },
+      {
+        "intent": "discover_artist",
+        "entities": [
+          {
+            "start": 7,
+            "end": 25,
+            "value": "Franz Joseph Haydn",
+            "entity": "doremus-artist"
+          }
+        ],
+        "text": "Who is Franz Joseph Haydn?"
+      },
+      {
         "intent": "works_by",
         "entities": [
           {

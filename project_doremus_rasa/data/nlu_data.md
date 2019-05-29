@@ -159,6 +159,16 @@
 - who is [Mozart](doremus-artist)
 - Tell me about [Vivaldi](doremus-artist)
 - Tell me about [Rachmaninov](doremus-artist)
+- What do you know about [Liszt](doremus-artist)?
+- Who is [Liszt](doremus-artist)?
+- What do you know about [Mozart](doremus-artist)?
+- Who is [Beethoven](doremus-artist)?
+- What do you know about [Bach](doremus-artist)?
+- Who is [Bach](doremus-artist)?
+- What do you know about [Tschaikowski](doremus-artist)?
+- Who is [Tschaikowski](doremus-artist)?
+- What do you know about [Franz Joseph Haydn](doremus-artist)?
+- Who is [Franz Joseph Haydn](doremus-artist)?
 
 ## intent:works_by
 - Give me [2](number) works by [Bach](doremus-artist)

@@ -33,7 +33,7 @@ train-core:
 cmdline:
 	python -m rasa_core.run -d models/current/dialogue -u models/current/nlu --endpoints endpoints.yml
 
-cmdline-server:
+chatbot-server:
 	python -m rasa_core.run -d models/current/dialogue -u models/current/nlu --port 5005 --endpoints endpoints.yml --credentials credentials.yml --debug
 	
 action-server:
