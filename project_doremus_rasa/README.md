@@ -102,7 +102,7 @@ This will load the assistant to use the port 5005 in order to integrate it with 
 To be able to use the chatbot it is necessary to have running the action server in order to be able to do the requests to the DOREMUS SPARQL endpoint and have running the docker container for Duckling (for time extraction) using:  
 ``` docker run -p 8000:8000 rasa/duckling ```  
 
-## Features
+## Features
 
 Search for a set of works composed by a given artist, on a given period, with an instrument and/or a specific genre.
 
