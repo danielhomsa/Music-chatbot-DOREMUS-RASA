@@ -52,12 +52,12 @@ def similarGenre(genre, dispatcher):
 	with open("genres.json") as gen_json:
 		genres = json.load(gen_json)
 		for g in genres['results']['bindings']:
-			genre_name = g['names']['value'].lower()
+			genre_name = g['gen']['value'].lower()
 			close_match = get_close_matches(genre, genre_name.split("|"))
 			if(len(close_match) >= 1):
 				genre_ratio = SequenceMatcher(None, genre, close_match[0]).ratio()
 				if(genre_ratio > similarity_ratio):
-					genre_value = g['composer']['value']
+					genre_value = g['genres']['value']
 					similarity_ratio = genre_ratio
 					if(similarity_ratio >= 0.8):
 						break

@@ -7303,3 +7303,1306 @@ There is no active form
 Predicted next action using policy_0_KerasPolicy
 Predicted next action 'action_listen' with prob 1.00.
 Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'find 2 works for violin' with intent '{'name': 'find_performance', 'confidence': 0.33906757569687385}' and entities '[{'start': 5, 'end': 6, 'text': '2', 'value': 2, 'confidence': 1.0, 'additional_info': {'value': 2, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 5, 'end': 6, 'value': '2', 'entity': 'number', 'confidence': 0.9953857006358415, 'extractor': 'ner_crf'}, {'start': 17, 'end': 23, 'value': 'violin', 'entity': 'doremus-instrument', 'confidence': 0.9697601117145518, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '2', 'start': 5, 'confidence': None, 'end': 6, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 222 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: None
+	doremus-instrument: violin
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 2
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_find_performance' with prob 1.00.
+Action 'utter_find_performance' ended with events '[]'
+Bot utterance 'BotUttered(text: Searching perfomances, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_find_performance': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_time_test' with prob 1.00.
+Calling action endpoint to run action 'action_time_test'.
+Action 'action_time_test' ended with events '["SlotSet(key: date-period, value: {'from': '', 'to': ''})"]'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_discover_artist': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_find_performance': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_time_test': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_find_performance' with prob 1.00.
+Calling action endpoint to run action 'action_find_performance'.
+Action 'action_find_performance' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find a performance in that date, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_discover_artist': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_find_performance': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_time_test': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'prev_action_find_performance': 1.0, 'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_find_performance': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_time_test': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'prev_action_find_performance': 1.0, 'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_number_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'give me 2 works with violin' with intent '{'name': 'works_by', 'confidence': 0.891180580253551}' and entities '[{'start': 8, 'end': 9, 'text': '2', 'value': 2, 'confidence': 1.0, 'additional_info': {'value': 2, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 9, 'value': '2', 'entity': 'number', 'confidence': 0.9990743295194766, 'extractor': 'ner_crf'}, {'start': 21, 'end': 27, 'value': 'violin', 'entity': 'doremus-instrument', 'confidence': 0.9714936806378199, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '2', 'start': 8, 'confidence': None, 'end': 9, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 236 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: None
+	doremus-instrument: violin
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 2
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_find_performance': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_time_test': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'prev_action_find_performance': 1.0, 'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_number_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 0.99.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! 2 of mozart. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_time_test': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'prev_action_find_performance': 1.0, 'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_number_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '['SlotSet(key: date-period, value: {})']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_action_find_performance': 1.0, 'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_number_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 242 events
+Current slot values: 
+	date-period: {}
+	doremus-artist: mozart
+	doremus-genre: None
+	doremus-instrument: violin
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 2
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_find_performance': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_number_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Action 'action_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: 6 quatuors
+Divertimentos, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Received retry #1 request from slack due to http_timeout
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'find me 2 works by mozart for violin' with intent '{'name': 'works_by', 'confidence': 0.8753847379412298}' and entities '[{'start': 8, 'end': 9, 'text': '2', 'value': 2, 'confidence': 1.0, 'additional_info': {'value': 2, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 9, 'value': '2', 'entity': 'number', 'confidence': 0.9990668174120632, 'extractor': 'ner_crf'}, {'start': 19, 'end': 25, 'value': 'mozart', 'entity': 'doremus-artist', 'confidence': 0.9746993557925698, 'extractor': 'ner_crf'}, {'start': 30, 'end': 36, 'value': 'violin', 'entity': 'doremus-instrument', 'confidence': 0.9701622243012629, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '2', 'start': 8, 'confidence': None, 'end': 9, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 255 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: None
+	doremus-instrument: violin
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 2
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 1.00.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! 2 of mozart. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '['SlotSet(key: date-period, value: {})']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 261 events
+Current slot values: 
+	date-period: {}
+	doremus-artist: mozart
+	doremus-genre: None
+	doremus-instrument: violin
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 2
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Action 'action_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: 6 quatuors
+Divertimentos, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'find me 2 works by mozart for piano' with intent '{'name': 'works_by', 'confidence': 0.901363927963668}' and entities '[{'start': 8, 'end': 9, 'text': '2', 'value': 2, 'confidence': 1.0, 'additional_info': {'value': 2, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 9, 'value': '2', 'entity': 'number', 'confidence': 0.9990668174148568, 'extractor': 'ner_crf'}, {'start': 19, 'end': 25, 'value': 'mozart', 'entity': 'doremus-artist', 'confidence': 0.9746080088645233, 'extractor': 'ner_crf'}, {'start': 30, 'end': 35, 'value': 'piano', 'entity': 'doremus-instrument', 'confidence': 0.986313992345285, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '2', 'start': 8, 'confidence': None, 'end': 9, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 274 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: None
+	doremus-instrument: piano
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 2
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 1.00.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! 2 of mozart. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '['SlotSet(key: date-period, value: {})']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 280 events
+Current slot values: 
+	date-period: {}
+	doremus-artist: mozart
+	doremus-genre: None
+	doremus-instrument: piano
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 2
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Action 'action_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sonatensatz
+Quintettes. Piano, vents. Si bémol majeur. KV 452a, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_utter_works_by': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'entity_doremus-instrument': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Received retry #1 request from slack due to http_timeout
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'tell me about beethoven' with intent '{'name': 'discover_artist', 'confidence': 0.731758058608377}' and entities '[{'start': 14, 'end': 23, 'value': 'beethoven', 'entity': 'doremus-artist', 'confidence': 0.9805444673008923, 'extractor': 'ner_crf'}]'
+Logged UserUtterance - tracker now has 291 events
+Current slot values: 
+	date-period: None
+	doremus-artist: beethoven
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 2
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_discover_artist' with prob 1.00.
+Action 'utter_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Discovering beethoven..., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_number_0': 1.0, 'prev_utter_discover_artist': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_discover_artist' with prob 1.00.
+Calling action endpoint to run action 'action_discover_artist'.
+Action 'action_discover_artist' ended with events '[]'
+Bot utterance 'BotUttered(text: Ludwig van Beethoven
+Ludwig van Beethoven (/ˈlʊdvɪɡ væn ˈbeɪˌtoʊvən/, /ˈbeɪtˌhoʊvən/; German: [ˈluːtvɪç fan ˈbeːtˌhoˑfn̩] ; baptised 17 December 1770 – 26 March 1827) was a German composer and pianist. A crucial figure in the transition between the Classical and Romantic eras in Western art music, he remains one of the most famous and influential of all composers. His best-known compositions include 9 symphonies, 5 piano concertos, 1 violin concerto, 32 piano sonatas, 16 string quartets, his great Mass the Missa solemnis, and one opera, Fidelio.
+Birth place: Electorate of Cologne
+Death place: Austrian Empire
+Death date: 1827-01-01, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'slot_doremus-instrument_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_number_0': 1.0, 'prev_utter_discover_artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'tell me 2 works by beethoven between 1800 and 1820' with intent '{'name': 'works_by', 'confidence': 0.8391035260725542}' and entities '[{'start': 8, 'end': 9, 'text': '2', 'value': 2, 'confidence': 1.0, 'additional_info': {'value': 2, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 29, 'end': 50, 'text': 'between 1800 and 1820', 'value': {'to': '2019-05-29T18:21:00.000+02:00', 'from': '2019-05-29T18:00:00.000+02:00'}, 'confidence': 1.0, 'additional_info': {'values': [{'to': {'value': '2019-05-29T18:21:00.000+02:00', 'grain': 'minute'}, 'from': {'value': '2019-05-29T18:00:00.000+02:00', 'grain': 'minute'}, 'type': 'interval'}, {'to': {'value': '2019-05-30T18:21:00.000+02:00', 'grain': 'minute'}, 'from': {'value': '2019-05-30T18:00:00.000+02:00', 'grain': 'minute'}, 'type': 'interval'}, {'to': {'value': '2019-05-31T18:21:00.000+02:00', 'grain': 'minute'}, 'from': {'value': '2019-05-31T18:00:00.000+02:00', 'grain': 'minute'}, 'type': 'interval'}], 'to': {'value': '2019-05-29T18:21:00.000+02:00', 'grain': 'minute'}, 'from': {'value': '2019-05-29T18:00:00.000+02:00', 'grain': 'minute'}, 'type': 'interval'}, 'entity': 'time', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 9, 'value': '2', 'entity': 'number', 'confidence': 0.9990745205942246, 'extractor': 'ner_crf'}, {'start': 19, 'end': 28, 'value': 'beethoven', 'entity': 'doremus-artist', 'confidence': 0.903465424134937, 'extractor': 'ner_crf'}, {'start': 29, 'end': 50, 'value': 'between 1800 and 1820', 'entity': 'date-period', 'confidence': 0.9924441210655739, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '2', 'start': 8, 'confidence': None, 'end': 9, 'extractor': 'ner_spacy'}, {'entity': 'CARDINAL', 'value': 'between 1800 and 1820', 'start': 29, 'confidence': None, 'end': 50, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 300 events
+Current slot values: 
+	date-period: between 1800 and 1820
+	doremus-artist: beethoven
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 2
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_number_0': 1.0, 'prev_utter_discover_artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'entity_time': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 1.00.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! 2 of beethoven. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_number_0': 1.0, 'prev_utter_discover_artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'entity_time': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0, 'entity_time': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '["SlotSet(key: date-period, value: {'from': 1800, 'to': 1820})"]'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_number_0': 1.0, 'prev_utter_discover_artist': 1.0}, {'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'entity_time': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0, 'entity_time': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'entity_time': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 306 events
+Current slot values: 
+	date-period: {'from': 1800, 'to': 1820}
+	doremus-artist: beethoven
+	doremus-genre: None
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 2
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_action_discover_artist': 1.0, 'slot_name_0': 1.0, 'intent_discover_artist': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'entity_time': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0, 'entity_time': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'entity_time': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'entity_time': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0, 'entity_time': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'entity_time': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Action 'action_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Since all thy vows, false maid
+Symphonie no 5, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0, 'entity_time': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'entity_time': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_time' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'entity_date-period': 1.0, 'slot_number_0': 1.0, 'entity_time': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Received retry #1 request from slack due to http_timeout
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'tell me three symphonies by mozart' with intent '{'name': 'works_by', 'confidence': 0.9738819579212866}' and entities '[{'start': 8, 'end': 13, 'text': 'three', 'value': 3, 'confidence': 1.0, 'additional_info': {'value': 3, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 13, 'value': 'three', 'entity': 'number', 'confidence': 0.9323143205891682, 'extractor': 'ner_crf'}, {'start': 14, 'end': 24, 'value': 'symphonies', 'entity': 'doremus-genre', 'confidence': 0.9116842353905481, 'extractor': 'ner_crf'}, {'start': 28, 'end': 34, 'value': 'mozart', 'entity': 'doremus-artist', 'confidence': 0.9944268629001033, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': 'three', 'start': 8, 'confidence': None, 'end': 13, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 319 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: symphonies
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: three
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 1.00.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! three of mozart. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '['SlotSet(key: date-period, value: {})']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 325 events
+Current slot values: 
+	date-period: {}
+	doremus-artist: mozart
+	doremus-genre: symphonies
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: three
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Failed to run custom action 'action_works_by'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_works_by' ended with events '[]'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'tell me 3 symphonies by mozart' with intent '{'name': 'works_by', 'confidence': 0.939512721665813}' and entities '[{'start': 8, 'end': 9, 'text': '3', 'value': 3, 'confidence': 1.0, 'additional_info': {'value': 3, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 9, 'value': '3', 'entity': 'number', 'confidence': 0.9626219432749371, 'extractor': 'ner_crf'}, {'start': 10, 'end': 20, 'value': 'symphonies', 'entity': 'doremus-genre', 'confidence': 0.915202492780006, 'extractor': 'ner_crf'}, {'start': 24, 'end': 30, 'value': 'mozart', 'entity': 'doremus-artist', 'confidence': 0.9944266303641712, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '3', 'start': 8, 'confidence': None, 'end': 9, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 337 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: symphonies
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 1.00.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! 3 of mozart. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '['SlotSet(key: date-period, value: {})']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 343 events
+Current slot values: 
+	date-period: {}
+	doremus-artist: mozart
+	doremus-genre: symphonies
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Failed to run custom action 'action_works_by'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_works_by' ended with events '[]'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'tell me 3 symphonies by mozart' with intent '{'name': 'works_by', 'confidence': 0.939512721665813}' and entities '[{'start': 8, 'end': 9, 'text': '3', 'value': 3, 'confidence': 1.0, 'additional_info': {'value': 3, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 9, 'value': '3', 'entity': 'number', 'confidence': 0.9626219432749371, 'extractor': 'ner_crf'}, {'start': 10, 'end': 20, 'value': 'symphonies', 'entity': 'doremus-genre', 'confidence': 0.915202492780006, 'extractor': 'ner_crf'}, {'start': 24, 'end': 30, 'value': 'mozart', 'entity': 'doremus-artist', 'confidence': 0.9944266303641712, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '3', 'start': 8, 'confidence': None, 'end': 9, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 355 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: symphonies
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 1.00.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! 3 of mozart. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '['SlotSet(key: date-period, value: {})']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 361 events
+Current slot values: 
+	date-period: {}
+	doremus-artist: mozart
+	doremus-genre: symphonies
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Failed to run custom action 'action_works_by'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_works_by' ended with events '[]'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'tell me 3 symphonie by mozart' with intent '{'name': 'works_by', 'confidence': 0.6142847382725778}' and entities '[{'start': 8, 'end': 9, 'text': '3', 'value': 3, 'confidence': 1.0, 'additional_info': {'value': 3, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 9, 'value': '3', 'entity': 'number', 'confidence': 0.9630143065108954, 'extractor': 'ner_crf'}, {'start': 10, 'end': 19, 'value': 'symphonie', 'entity': 'doremus-genre', 'confidence': 0.7378310380450981, 'extractor': 'ner_crf'}, {'start': 23, 'end': 29, 'value': 'mozart', 'entity': 'doremus-artist', 'confidence': 0.9944324137159808, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '3', 'start': 8, 'confidence': None, 'end': 9, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 373 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: symphonie
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 1.00.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! 3 of mozart. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '['SlotSet(key: date-period, value: {})']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 379 events
+Current slot values: 
+	date-period: {}
+	doremus-artist: mozart
+	doremus-genre: symphonie
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Action 'action_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sorry, I couldn't find any works with these filters, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'tell me 3 symphony by mozart' with intent '{'name': 'works_by', 'confidence': 0.7478113461974119}' and entities '[{'start': 8, 'end': 9, 'text': '3', 'value': 3, 'confidence': 1.0, 'additional_info': {'value': 3, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 9, 'value': '3', 'entity': 'number', 'confidence': 0.9628683933733309, 'extractor': 'ner_crf'}, {'start': 10, 'end': 18, 'value': 'symphony', 'entity': 'doremus-genre', 'confidence': 0.7981840343596247, 'extractor': 'ner_crf'}, {'start': 22, 'end': 28, 'value': 'mozart', 'entity': 'doremus-artist', 'confidence': 0.9944303036306137, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '3', 'start': 8, 'confidence': None, 'end': 9, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 392 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: symphony
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 1.00.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! 3 of mozart. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '['SlotSet(key: date-period, value: {})']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 398 events
+Current slot values: 
+	date-period: {}
+	doremus-artist: mozart
+	doremus-genre: symphony
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'prev_action_listen': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Action 'action_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Neue Lambacher
+Symphonie no 25
+Symphonie no 34, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_year_slot': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'tell me 3 symphonies by mozart' with intent '{'name': 'works_by', 'confidence': 0.939512721665813}' and entities '[{'start': 8, 'end': 9, 'text': '3', 'value': 3, 'confidence': 1.0, 'additional_info': {'value': 3, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 9, 'value': '3', 'entity': 'number', 'confidence': 0.9626219432749371, 'extractor': 'ner_crf'}, {'start': 10, 'end': 20, 'value': 'symphonies', 'entity': 'doremus-genre', 'confidence': 0.915202492780006, 'extractor': 'ner_crf'}, {'start': 24, 'end': 30, 'value': 'mozart', 'entity': 'doremus-artist', 'confidence': 0.9944266303641712, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '3', 'start': 8, 'confidence': None, 'end': 9, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 411 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: symphonies
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 1.00.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! 3 of mozart. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '['SlotSet(key: date-period, value: {})']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 417 events
+Current slot values: 
+	date-period: {}
+	doremus-artist: mozart
+	doremus-genre: symphonies
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Failed to run custom action 'action_works_by'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_works_by' ended with events '[]'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'tell me 3 symphonies by mozart' with intent '{'name': 'works_by', 'confidence': 0.939512721665813}' and entities '[{'start': 8, 'end': 9, 'text': '3', 'value': 3, 'confidence': 1.0, 'additional_info': {'value': 3, 'type': 'value'}, 'entity': 'number', 'extractor': 'ner_duckling_http'}, {'start': 8, 'end': 9, 'value': '3', 'entity': 'number', 'confidence': 0.9626219432749371, 'extractor': 'ner_crf'}, {'start': 10, 'end': 20, 'value': 'symphonies', 'entity': 'doremus-genre', 'confidence': 0.915202492780006, 'extractor': 'ner_crf'}, {'start': 24, 'end': 30, 'value': 'mozart', 'entity': 'doremus-artist', 'confidence': 0.9944266303641712, 'extractor': 'ner_crf'}, {'entity': 'CARDINAL', 'value': '3', 'start': 8, 'confidence': None, 'end': 9, 'extractor': 'ner_spacy'}]'
+Logged UserUtterance - tracker now has 429 events
+Current slot values: 
+	date-period: None
+	doremus-artist: mozart
+	doremus-genre: symphonies
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by' with prob 1.00.
+Action 'utter_works_by' ended with events '[]'
+Bot utterance 'BotUttered(text: Sure! 3 of mozart. Do you want to add some filters? Like the instruments, genre or composition period., data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_year_slot' with prob 1.00.
+Calling action endpoint to run action 'action_year_slot'.
+Action 'action_year_slot' ended with events '['SlotSet(key: date-period, value: {})']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
+Recreating tracker for id 'UJY2B3VNH'
+Received user message 'no' with intent '{'name': 'works_by_no', 'confidence': 0.8697637496828182}' and entities '[]'
+Logged UserUtterance - tracker now has 435 events
+Current slot values: 
+	date-period: {}
+	doremus-artist: mozart
+	doremus-genre: symphonies
+	doremus-instrument: None
+	doremus-strictly: None
+	geo-city: None
+	name: daniel
+	number: 3
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'utter_works_by_no' with prob 1.00.
+Action 'utter_works_by_no' ended with events '[]'
+Bot utterance 'BotUttered(text: Ok, data: {
+  "elements": null,
+  "buttons": null,
+  "attachment": null
+})'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_works_by' with prob 1.00.
+Calling action endpoint to run action 'action_works_by'.
+Failed to run custom action 'action_works_by'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_works_by'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 342, in run
+    response.raise_for_status()
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/requests/models.py", line 940, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/processor.py", line 346, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/Users/danielha23/anaconda3/lib/python3.6/site-packages/rasa_core/actions/action.py", line 362, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Action 'action_works_by' ended with events '[]'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_utter_works_by': 1.0}, {'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_reset_slot' with prob 1.00.
+Calling action endpoint to run action 'action_reset_slot'.
+Action 'action_reset_slot' ended with events '['SlotSet(key: doremus-instrument, value: None)', 'SlotSet(key: doremus-genre, value: None)', 'SlotSet(key: date-period, value: None)']'
+Feature 'entity_CARDINAL' (value: '1.0') could not be found in feature map. Make sure you added all intents and entities to the domain
+Current tracker state [{'entity_CARDINAL': 1.0, 'slot_name_0': 1.0, 'intent_works_by': 1.0, 'slot_date-period_0': 1.0, 'entity_doremus-genre': 1.0, 'entity_number': 1.0, 'slot_doremus-artist_0': 1.0, 'entity_doremus-artist': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_year_slot': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'prev_action_listen': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'prev_utter_works_by_no': 1.0, 'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'slot_date-period_0': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_doremus-genre_0': 1.0, 'slot_number_0': 1.0, 'prev_action_works_by': 1.0, 'intent_works_by_no': 1.0}, {'slot_name_0': 1.0, 'prev_action_reset_slot': 1.0, 'slot_doremus-artist_0': 1.0, 'slot_number_0': 1.0, 'intent_works_by_no': 1.0}]
+There is no memorised next action
+There is no active form
+Predicted next action using policy_0_KerasPolicy
+Predicted next action 'action_listen' with prob 1.00.
+Action 'action_listen' ended with events '[]'
