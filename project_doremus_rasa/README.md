@@ -93,9 +93,9 @@ This will start the server for emulating the custom action.
 ```make cmdline```  
 This will load the assistant in your terminal for you to chat.
 
-5. To start the chatbot as a server:
-```make chatbot-server```
-This will load the assistant to use the port 5005 in order to integrate it with a messaging app, as for now I just have done this with slack, but it should work with others (credentials for the messaging app should be added in the **credentials.yml** file)
+5. To start the chatbot as a server:  
+```make chatbot-server```  
+This will load the assistant to use the port 5005 in order to integrate it with a messaging app, as for now I just have done this with slack, but it should work with others (credentials for the messaging app should be added in the **credentials.yml** file).
 
 ## Running the chatbot
 
