@@ -106,23 +106,23 @@ To be able to use the chatbot it is necessary to have running the action server 
 
 Search for a set of works composed by a given artist, on a given period, with an instrument and/or a specific genre.
 
-	-*"Give me 2 works by Vivaldi"*  
-	-*"Find me 2 works by Mozart for violin"*  
-	-*"Tell me 1 work by Beethoven between 1800 and 1820"*  
-	-*"Tell me 3 symphonies by Mozart"*  
+-*"Give me 2 works by Vivaldi"*  
+-*"Find me 2 works by Mozart for violin"*  
+-*"Tell me 1 work by Beethoven between 1800 and 1820"*  
+-*"Tell me 3 symphonies by Mozart"*  
 
 Search for artists according to their birth day, compositions by an instrument or a genre.
 
-	-*"Find 2 artists born in Vienna between 1700 and 1800"*  
-	-*"Give me 2 artists born in Vienna who wrote more works for piano"*  
+-*"Find 2 artists born in Vienna between 1700 and 1800"*  
+-*"Give me 2 artists born in Vienna who wrote more works for piano"*  
 
 Find the details of performances (past or future) in a city.
 
-	-*"Events in Paris next week"*  
+-*"Events in Paris next week"*  
 
 Give a small biography of an artist.
 
-	-*"Tell me about Beethoven"*  
-	-*"Who is Franz Liszt?"*  
-	-*"What do you know about Haydn?"*  
+-*"Tell me about Beethoven"*  
+-*"Who is Franz Liszt?"*  
+-*"What do you know about Haydn?"*  
 
